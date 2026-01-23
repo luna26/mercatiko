@@ -9,8 +9,19 @@
  */
 {
   "sections": {
+    "section_custom_html_CxTckD": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<div id=\"st_result\" class=\"st_vendor_list\"></div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "hide_mobile": false
       }
@@ -131,6 +142,7 @@
       "block_order": [
         "shipturtle_seller_profile_eYiVCT"
       ],
+      "disabled": true,
       "settings": {
         "color_palette": "",
         "overlay_opacity": 100,
@@ -334,19 +346,10 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_custom_html_CxTckD": {
-      "type": "section-custom-html",
-      "name": "t:sections.custom_html_snippet.presets.name",
-      "settings": {
-        "custom_html": "<div id=\"st_result\" class=\"st_vendor_list\"></div>",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
+    "section_custom_html_CxTckD",
     "breadcrumbs",
     "16552050441a8cdfa5",
     "17691893707d096e56",
@@ -355,7 +358,6 @@
     "165520504129a8d4ea",
     "16534638377c7920c1",
     "165346385457f0044f",
-    "16552027695203de66",
-    "section_custom_html_CxTckD"
+    "16552027695203de66"
   ]
 }
