@@ -334,6 +334,16 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_html_CxTckD": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<div id=\"st_result\" class=\"st_vendor_list\"></div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -345,6 +355,7 @@
     "165520504129a8d4ea",
     "16534638377c7920c1",
     "165346385457f0044f",
-    "16552027695203de66"
+    "16552027695203de66",
+    "section_custom_html_CxTckD"
   ]
 }
