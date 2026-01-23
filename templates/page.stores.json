@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "section_custom_html_CxTckD": {
-      "type": "section-custom-html",
-      "name": "t:sections.custom_html_snippet.presets.name",
-      "settings": {
-        "custom_html": "<div id=\"st_result\" class=\"st_vendor_list\"></div>",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
     "breadcrumbs": {
       "type": "breadcrumbs",
       "disabled": true,
@@ -142,7 +132,6 @@
       "block_order": [
         "shipturtle_seller_profile_eYiVCT"
       ],
-      "disabled": true,
       "settings": {
         "color_palette": "",
         "overlay_opacity": 100,
@@ -349,7 +338,6 @@
     }
   },
   "order": [
-    "section_custom_html_CxTckD",
     "breadcrumbs",
     "16552050441a8cdfa5",
     "17691893707d096e56",
