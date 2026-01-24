@@ -1,1 +1,684 @@
-{"sections":{"section_grid_yyCXme":{"type":"section-grid","blocks":{"image_UwVfdj":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/abrigo4.jpg","overlay_opacity":25,"color_palette":"scheme-2","text_position":"text-start","cols":1,"rows":1,"title":"<h3>Belleza<\/h3>","title_underline_style":"none","text":"","show_link":true,"link_text":"Comprar ahora","link_url":"\/","button_style":"secondary link","show_overlay_link":true,"overlay_url":"","show_look":false,"product_list":[],"look_btn_style":"buy_button plain","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_wQVVFN":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/197F9531-D51B-4F1C-8EAB-5CD9218C6352.webp","overlay_opacity":25,"color_palette":"scheme-2","text_position":"align-bottom text-start","cols":1,"rows":2,"title":"<h1>Lencería<\/h1>","title_underline_style":"none","text":"","show_link":true,"link_text":"Comprar ahora","link_url":"shopify:\/\/collections\/lenceria","button_style":"secondary plain","show_overlay_link":true,"overlay_url":"","show_look":false,"product_list":[],"look_btn_style":"buy_button plain","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_zrQRwD":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/woman-playing-with-blonde-hair.jpg","overlay_opacity":25,"color_palette":"scheme-2","text_position":"text-start","cols":2,"rows":2,"title":"","title_underline_style":"gradient","text":"<h4>Nuevo<\/h4><h1>Moda<\/h1>","show_link":true,"link_text":"Comprar","link_url":"\/","button_style":"secondary plain","show_overlay_link":true,"overlay_url":"","show_look":true,"product_list":[],"look_btn_style":"buy_button plain","look_position":"end","show_look_label":true,"look_label_text":"Shop the look"}},"image_Mc883t":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/model-in-sunglasses-and-summer-clothes.jpg","overlay_opacity":30,"color_palette":"scheme-1","text_position":"text-center","cols":1,"rows":1,"title":"<h3>Regalos <br\/>Únicos<\/h3>","title_underline_style":"secondary_font","text":"","show_link":true,"link_text":"Shop now","link_url":"\/","button_style":"primary plain","show_overlay_link":true,"overlay_url":"","show_look":false,"product_list":[],"look_btn_style":"buy_button plain","look_position":"end","show_look_label":false,"look_label_text":"Label","image_mobile":"shopify:\/\/shop_images\/laptop2.jpg"}}},"block_order":["image_UwVfdj","image_wQVVFN","image_zrQRwD","image_Mc883t"],"settings":{"number_of_columns":"4","height":"size-xs","width":"boxed","space_between":16,"image_zoom":true,"image_move":false,"layout_mobile":"compact","mobile_height":"size-s","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"1653391228084c834a":{"type":"section-collection-list","disabled":true,"settings":{"collections":["electronicss","abrigos"],"image_ratio":"square","fill_images":true,"layout":"slider","number_of_items":8,"text_alignment":"start","width":"boxed","title":"<h2>Top selling collections<\/h2>","title_underline_style":"none","show_link":true,"link_text":"View all collections","link_url":"\/","button_style":"primary link","collection_title_size":"p","mobile_layout":"slider","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"16603001534a9c90c9":{"type":"section-featured-products","settings":{"products":["abrigo-lana-mujer","abrigo-deportivo","abrigo-elegante-beige","abrigo-invierno-mujer","abrigo-nordico-hombre","abrigo-peluche-mujer"],"layout":"slider","number_of_items":5,"text_alignment":"start","width":"boxed","title":"<h2> Productos destacados<\/h2>","title_underline_style":"none","text":"","show_link":true,"link_text":"View all products","link_url":"\/","button_style":"primary link","enable_quick_buy_desktop":true,"enable_quick_buy_mobile":true,"enable_quick_buy_drawer":false,"enable_quick_buy_qty_selector":true,"enable_color_picker":true,"enable_quick_buy_compact":true,"mobile_layout":"slider","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"16548652677db3e33c":{"type":"section-gallery","blocks":{"1654865266c7ee8f93-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/hands-on-hips-girls-fashion.jpg","overlay_opacity":20,"color_palette":"scheme-2","text_position":"center","title":"<h1>Ropa para niños<\/h1>","title_underline_style":"none","text":"","show_link":true,"link_text":"Descubre ahora","link_url":"\/","button_style":"secondary plain","show_overlay_link":true,"overlay_url":""}},"1654865266c7ee8f93-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/model-in-sunglasses-and-summer-clothes.jpg","overlay_opacity":25,"color_palette":"scheme-2","text_position":"end center","title":"<h3>Moda\/<\/h3>","title_underline_style":"none","text":"","show_link":true,"link_text":"","link_url":"\/","button_style":"primary plain","show_overlay_link":true,"overlay_url":""}},"308e5b21-d3d8-4fdc-bf57-625316fb3592":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/modern-updated-kitchen-interior-home.jpg","overlay_opacity":0,"color_palette":"scheme-2","text_position":"end center","title":"<h3>Artículos para el hogar<\/h3>","title_underline_style":"none","text":"","show_link":true,"link_text":"","link_url":"\/","button_style":"primary plain","show_overlay_link":true,"overlay_url":""}}},"block_order":["1654865266c7ee8f93-0","1654865266c7ee8f93-1","308e5b21-d3d8-4fdc-bf57-625316fb3592"],"settings":{"items_layout":"playful-grid","items_width":2,"height":"adapt","enable_custom_height":false,"custom_height":300,"width":"boxed","space_between":16,"image_zoom":true,"image_move":false,"show_content_on_hover":false,"show_content_below":false,"content_on_hover_color_palette":"dark","layout_mobile":"rows","mobile_height":"1\/1","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"166030001712c7cb2b":{"type":"section-featured-products","settings":{"products":["abrigo-casual-gris","abrigo-lana-mujer","abrigo-deportivo","abrigo-elegante-beige","abrigo-invierno-mujer"],"layout":"slider","number_of_items":5,"text_alignment":"aside","width":"boxed","title":"<h1><strong>¡Más vendido esta semana!<\/strong><\/h1>","title_underline_style":"none","text":"<p>Top 10 más vendidos esta semana<\/p>","show_link":true,"link_text":"Top 100 más vendidos","link_url":"\/","button_style":"primary link","enable_quick_buy_desktop":true,"enable_quick_buy_mobile":true,"enable_quick_buy_drawer":false,"enable_quick_buy_qty_selector":true,"enable_color_picker":true,"enable_quick_buy_compact":true,"mobile_layout":"slider","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"16620576959f001826":{"type":"section-promo-gallery","blocks":{"16620576954435429a-0":{"type":"image","settings":{"overlay_opacity_img":0,"color_palette":"scheme-1","overlay_opacity":0,"text_position":"text-center","title":"Plant terrariums","title_underline_style":"none","text":"<p>New arrivals: Urban Jungle<\/p>","show_link":true,"link_text":"Shop now","link_url":"\/","button_style":"primary link","show_overlay_link":true,"overlay_url":""}},"16620576954435429a-1":{"type":"image","settings":{"overlay_opacity_img":0,"color_palette":"scheme-1","overlay_opacity":0,"text_position":"text-center","title":"10% sale on tablets","title_underline_style":"none","text":"<p>Extra because you deserve some class. Use code: <strong>TABLET25<\/strong><\/p>","show_link":true,"link_text":"Shop now","link_url":"\/","button_style":"primary link","show_overlay_link":true,"overlay_url":""}},"image_U3EnYz":{"type":"image","settings":{"overlay_opacity_img":0,"color_palette":"scheme-1","overlay_opacity":100,"text_position":"text-center","title":"Headphones","title_underline_style":"none","text":"<p>Noise cancelling brought to you<\/p>","show_link":true,"link_text":"Shop now","link_url":"\/","button_style":"primary link","show_overlay_link":true,"overlay_url":""}}},"block_order":["16620576954435429a-0","16620576954435429a-1","image_U3EnYz"],"disabled":true,"settings":{"items_width":3,"height":"16\/9","width":"boxed","space_between":16,"image_zoom":false,"shadow":false,"title_size_blocks":"h3","layout_mobile":"rows","height_mobile":"16\/9","spacing_desktop":30,"spacing_mobile":30,"fix_zindex":0}},"section_image_hotspots_qffPmj":{"type":"section-image-hotspots","blocks":{"hotspot_qAjiEa":{"type":"hotspot","settings":{"product":"","text_position":"text-start","title":"Image hotspot","text":"<p>Highlight a new collection and share details about products related to this image<\/p>","position_left":72,"position_top":88,"position_left_mobile":70,"position_top_mobile":20}},"hotspot_gj9tCh":{"type":"hotspot","settings":{"product":"","text_position":"text-start","title":"Image hotspot","text":"<p>Highlight a new collection and share details about products related to this image<\/p>","position_left":82,"position_top":56,"position_left_mobile":30,"position_top_mobile":50}},"hotspot_7Wier6":{"type":"hotspot","settings":{"product":"","text_position":"text-start","title":"Image hotspot","text":"<p>Highlight a new collection and share details about products related to this image<\/p>","position_left":50,"position_top":70,"position_left_mobile":50,"position_top_mobile":70}}},"block_order":["hotspot_qAjiEa","hotspot_gj9tCh","hotspot_7Wier6"],"settings":{"image":"shopify:\/\/shop_images\/16_a88eda31-ab21-44d7-9a37-c8e73694a045.jpg","overlay_opacity":0,"color_palette":"scheme-6","hotspot_height":24,"hotspot_color_palette":"primary","layout":"right","height":"1\/1","enable_custom_height":true,"custom_height":420,"width_banner":"boxed","width":"boxed","text_position":"align-start text-start","title":"<h1>Los regalos perfectos<\/h1>","title_underline_style":"none","text":"<p>Cada artículo está hecho con cuidado, ofreciendo regalos memorables que duran toda la vida.<\/p>","show_link":true,"link_text":"Comprar ahora","link_url":"\/","button_style":"secondary plain","height_mobile":"adapt","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"1653468546493c13a2":{"type":"section-blog-posts","disabled":true,"settings":{"blog":"news","number_of_items":5,"big_first_item":false,"text_alignment":"start","width":"boxed","title":"<h2>Our latest blog posts<\/h2>","title_underline_style":"none","show_link":true,"link_text":"View all","link_url":"\/","button_style":"primary link","blog_title_size":"h4","show_image":true,"show_date":true,"show_author":true,"show_excerpt":false,"button_style_post":"primary link","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"section_slideshow_bKaRxG":{"type":"section-slideshow","blocks":{"slide_etkUYp":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/19-02_30a7e2fc-ed50-4098-87b8-040a1c859498.jpg","layout":"left","overlay_opacity":0,"color_palette":"","text_position":"align-start text-start","title":"<h2>El material es suave, ligero y se seca rapidísimo, ideal tanto para el día a día como para actividades al aire libre.<br\/><br\/><\/h2><h4>⭐⭐⭐⭐⭐<br\/><\/h4><h5>Andres Rojas<\/h5><p>Enero 20, 2026<br\/><\/p>","title_underline_style":"none","text":"","show_first_link":true,"first_link_text":"","first_link_url":"","first_button_style":"primary plain","show_second_link":false,"second_link_text":"Button","second_link_url":"","second_button_style":"secondary plain","show_overlay_link":true,"overlay_url":""}}},"block_order":["slide_etkUYp"],"settings":{"height":"32\/9","width_banner":"boxed","width":"boxed","autoplay":false,"autoplay_seconds":3,"enable_controls":false,"height_mobile":"adapt","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"16548654705529ee49":{"type":"section-logo-list","blocks":{"165486547011270c54-0":{"type":"logo","settings":{"image_svg":"","link":""}},"165486547011270c54-1":{"type":"logo","settings":{"image_svg":"","link":"\/"}},"165486547011270c54-2":{"type":"logo","settings":{"image_svg":"","link":""}},"165486547011270c54-3":{"type":"logo","settings":{"image_svg":"","link":""}},"165486547011270c54-4":{"type":"logo","settings":{"image_svg":"","link":""}},"165486547011270c54-5":{"type":"logo","settings":{"image_svg":"","link":""}}},"block_order":["165486547011270c54-0","165486547011270c54-1","165486547011270c54-2","165486547011270c54-3","165486547011270c54-4","165486547011270c54-5"],"settings":{"number_of_items":6,"text_alignment":"start","width":"boxed","title":"","title_underline_style":"none","show_link":true,"link_text":"","link_url":"","button_style":"primary plain","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"78836e0a-6131-4f01-afff-dbdd186d0914":{"type":"section-recently-viewed-products","settings":{"number_of_items":5,"text_alignment":"start","width":"boxed","title":"<h2>Visto recientemente<\/h2>","title_underline_style":"none","enable_quick_buy_desktop":false,"enable_quick_buy_mobile":true,"enable_quick_buy_drawer":false,"enable_quick_buy_qty_selector":true,"enable_color_picker":false,"enable_quick_buy_compact":false,"spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"165346832322a4db6f":{"type":"section-usp-bar","blocks":{"16534683231021e629-0":{"type":"usp","settings":{"usp":"<p>En stock y listo para enviar<\/p>"}},"16534683231021e629-1":{"type":"usp","settings":{"usp":"<p>Compra <strong>100% segura<\/strong><\/p>"}},"16534683231021e629-2":{"type":"usp","settings":{"usp":"<p>Lo que ves es lo que recibes<\/p>"}}},"block_order":["16534683231021e629-0","16534683231021e629-1","16534683231021e629-2"],"settings":{"color_palette":"scheme-1","layout":"rows","autoplay":true,"autoplay_seconds":3,"show_arrows":true,"width_banner":"boxed","width":"wide","mobile_layout":"slider","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}}},"order":["section_grid_yyCXme","1653391228084c834a","16603001534a9c90c9","16548652677db3e33c","166030001712c7cb2b","16620576959f001826","section_image_hotspots_qffPmj","1653468546493c13a2","section_slideshow_bKaRxG","16548654705529ee49","78836e0a-6131-4f01-afff-dbdd186d0914","165346832322a4db6f"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_grid_yyCXme": {
+      "type": "section-grid",
+      "blocks": {
+        "image_UwVfdj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/abrigo4.jpg",
+            "overlay_opacity": 25,
+            "color_palette": "scheme-2",
+            "text_position": "text-start",
+            "cols": 1,
+            "rows": 1,
+            "title": "<h3>Belleza</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Comprar ahora",
+            "link_url": "/",
+            "button_style": "secondary link",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "product_list": [],
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_wQVVFN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/197F9531-D51B-4F1C-8EAB-5CD9218C6352.webp",
+            "overlay_opacity": 25,
+            "color_palette": "scheme-2",
+            "text_position": "align-bottom text-start",
+            "cols": 1,
+            "rows": 2,
+            "title": "<h1>Lencería</h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Comprar ahora",
+            "link_url": "shopify://collections/lenceria",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "product_list": [],
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_zrQRwD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/woman-playing-with-blonde-hair.jpg",
+            "overlay_opacity": 25,
+            "color_palette": "scheme-2",
+            "text_position": "text-start",
+            "cols": 2,
+            "rows": 2,
+            "title": "",
+            "title_underline_style": "gradient",
+            "text": "<h4>Nuevo</h4><h1>Moda</h1>",
+            "show_link": true,
+            "link_text": "Comprar",
+            "link_url": "/",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "product_list": [],
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Shop the look"
+          }
+        },
+        "image_Mc883t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/model-in-sunglasses-and-summer-clothes.jpg",
+            "overlay_opacity": 30,
+            "color_palette": "scheme-1",
+            "text_position": "text-center",
+            "cols": 1,
+            "rows": 1,
+            "title": "<h3>Regalos <br/>Únicos</h3>",
+            "title_underline_style": "secondary_font",
+            "text": "",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "product_list": [],
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label",
+            "image_mobile": "shopify://shop_images/laptop2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_UwVfdj",
+        "image_wQVVFN",
+        "image_zrQRwD",
+        "image_Mc883t"
+      ],
+      "settings": {
+        "number_of_columns": "4",
+        "height": "size-xs",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1653391228084c834a": {
+      "type": "section-collection-list",
+      "disabled": true,
+      "settings": {
+        "collections": [
+          "electronicss",
+          "abrigos"
+        ],
+        "image_ratio": "square",
+        "fill_images": true,
+        "layout": "slider",
+        "number_of_items": 8,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2>Top selling collections</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "View all collections",
+        "link_url": "/",
+        "button_style": "primary link",
+        "collection_title_size": "p",
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16603001534a9c90c9": {
+      "type": "section-featured-products",
+      "settings": {
+        "products": [
+          "abrigo-lana-mujer",
+          "abrigo-deportivo",
+          "abrigo-elegante-beige",
+          "abrigo-invierno-mujer",
+          "abrigo-nordico-hombre",
+          "abrigo-peluche-mujer"
+        ],
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2> Productos destacados</h2>",
+        "title_underline_style": "none",
+        "text": "",
+        "show_link": true,
+        "link_text": "View all products",
+        "link_url": "/",
+        "button_style": "primary link",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": true,
+        "enable_quick_buy_compact": true,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16548652677db3e33c": {
+      "type": "section-gallery",
+      "blocks": {
+        "1654865266c7ee8f93-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hands-on-hips-girls-fashion.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "scheme-2",
+            "text_position": "center",
+            "title": "<h1>Ropa para niños</h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Descubre ahora",
+            "link_url": "/",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "1654865266c7ee8f93-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/model-in-sunglasses-and-summer-clothes.jpg",
+            "overlay_opacity": 25,
+            "color_palette": "scheme-2",
+            "text_position": "end center",
+            "title": "<h3>Moda/</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "",
+            "link_url": "/",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "308e5b21-d3d8-4fdc-bf57-625316fb3592": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/modern-updated-kitchen-interior-home.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "end center",
+            "title": "<h3>Artículos para el hogar</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "",
+            "link_url": "/",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654865266c7ee8f93-0",
+        "1654865266c7ee8f93-1",
+        "308e5b21-d3d8-4fdc-bf57-625316fb3592"
+      ],
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 2,
+        "height": "adapt",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "show_content_below": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "1/1",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "166030001712c7cb2b": {
+      "type": "section-featured-products",
+      "settings": {
+        "products": [
+          "abrigo-casual-gris",
+          "abrigo-lana-mujer",
+          "abrigo-deportivo",
+          "abrigo-elegante-beige",
+          "abrigo-invierno-mujer"
+        ],
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "aside",
+        "width": "boxed",
+        "title": "<h1><strong>¡Más vendido esta semana!</strong></h1>",
+        "title_underline_style": "none",
+        "text": "<p>Top 10 más vendidos esta semana</p>",
+        "show_link": true,
+        "link_text": "Top 100 más vendidos",
+        "link_url": "/",
+        "button_style": "primary link",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": true,
+        "enable_quick_buy_compact": true,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16620576959f001826": {
+      "type": "section-promo-gallery",
+      "blocks": {
+        "16620576954435429a-0": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 0,
+            "text_position": "text-center",
+            "title": "Plant terrariums",
+            "title_underline_style": "none",
+            "text": "<p>New arrivals: Urban Jungle</p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "16620576954435429a-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 0,
+            "text_position": "text-center",
+            "title": "10% sale on tablets",
+            "title_underline_style": "none",
+            "text": "<p>Extra because you deserve some class. Use code: <strong>TABLET25</strong></p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "image_U3EnYz": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 100,
+            "text_position": "text-center",
+            "title": "Headphones",
+            "title_underline_style": "none",
+            "text": "<p>Noise cancelling brought to you</p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16620576954435429a-0",
+        "16620576954435429a-1",
+        "image_U3EnYz"
+      ],
+      "disabled": true,
+      "settings": {
+        "items_width": 3,
+        "height": "16/9",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": false,
+        "shadow": false,
+        "title_size_blocks": "h3",
+        "layout_mobile": "rows",
+        "height_mobile": "16/9",
+        "spacing_desktop": 30,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_hotspots_qffPmj": {
+      "type": "section-image-hotspots",
+      "blocks": {
+        "hotspot_qAjiEa": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 72,
+            "position_top": 88,
+            "position_left_mobile": 70,
+            "position_top_mobile": 20
+          }
+        },
+        "hotspot_gj9tCh": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 82,
+            "position_top": 56,
+            "position_left_mobile": 30,
+            "position_top_mobile": 50
+          }
+        },
+        "hotspot_7Wier6": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 50,
+            "position_top": 70,
+            "position_left_mobile": 50,
+            "position_top_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_qAjiEa",
+        "hotspot_gj9tCh",
+        "hotspot_7Wier6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/16_a88eda31-ab21-44d7-9a37-c8e73694a045.jpg",
+        "overlay_opacity": 0,
+        "color_palette": "scheme-6",
+        "hotspot_height": 24,
+        "hotspot_color_palette": "primary",
+        "layout": "right",
+        "height": "1/1",
+        "enable_custom_height": true,
+        "custom_height": 420,
+        "width_banner": "boxed",
+        "width": "boxed",
+        "text_position": "align-start text-start",
+        "title": "<h1>Los regalos perfectos</h1>",
+        "title_underline_style": "none",
+        "text": "<p>Cada artículo está hecho con cuidado, ofreciendo regalos memorables que duran toda la vida.</p>",
+        "show_link": true,
+        "link_text": "Comprar ahora",
+        "link_url": "/",
+        "button_style": "secondary plain",
+        "height_mobile": "adapt",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1653468546493c13a2": {
+      "type": "section-blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "news",
+        "number_of_items": 5,
+        "big_first_item": false,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2>Our latest blog posts</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "View all",
+        "link_url": "/",
+        "button_style": "primary link",
+        "blog_title_size": "h4",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": false,
+        "button_style_post": "primary link",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_slideshow_bKaRxG": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_etkUYp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/19-02_30a7e2fc-ed50-4098-87b8-040a1c859498.jpg",
+            "layout": "left",
+            "overlay_opacity": 0,
+            "color_palette": "",
+            "text_position": "align-start text-start",
+            "title": "<h2>El material es suave, ligero y se seca rapidísimo, ideal tanto para el día a día como para actividades al aire libre.<br/><br/></h2><h4>⭐⭐⭐⭐⭐<br/></h4><h5>Andres Rojas</h5><p>Enero 20, 2026<br/></p>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_first_link": true,
+            "first_link_text": "",
+            "first_link_url": "",
+            "first_button_style": "primary plain",
+            "show_second_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "",
+            "second_button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_etkUYp"
+      ],
+      "settings": {
+        "height": "32/9",
+        "width_banner": "boxed",
+        "width": "boxed",
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "adapt",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16548654705529ee49": {
+      "type": "section-logo-list",
+      "blocks": {
+        "165486547011270c54-0": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        },
+        "165486547011270c54-1": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": "/"
+          }
+        },
+        "165486547011270c54-2": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        },
+        "165486547011270c54-3": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        },
+        "165486547011270c54-4": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        },
+        "165486547011270c54-5": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165486547011270c54-0",
+        "165486547011270c54-1",
+        "165486547011270c54-2",
+        "165486547011270c54-3",
+        "165486547011270c54-4",
+        "165486547011270c54-5"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "",
+        "link_url": "",
+        "button_style": "primary plain",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "78836e0a-6131-4f01-afff-dbdd186d0914": {
+      "type": "section-recently-viewed-products",
+      "settings": {
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2>Visto recientemente</h2>",
+        "title_underline_style": "none",
+        "enable_quick_buy_desktop": false,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "165346832322a4db6f": {
+      "type": "section-usp-bar",
+      "blocks": {
+        "16534683231021e629-0": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>En stock y listo para enviar</p>"
+          }
+        },
+        "16534683231021e629-1": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Compra <strong>100% segura</strong></p>"
+          }
+        },
+        "16534683231021e629-2": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Lo que ves es lo que recibes</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16534683231021e629-0",
+        "16534683231021e629-1",
+        "16534683231021e629-2"
+      ],
+      "settings": {
+        "color_palette": "scheme-1",
+        "layout": "rows",
+        "autoplay": true,
+        "autoplay_seconds": 3,
+        "show_arrows": true,
+        "width_banner": "boxed",
+        "width": "wide",
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "section_grid_yyCXme",
+    "1653391228084c834a",
+    "16603001534a9c90c9",
+    "16548652677db3e33c",
+    "166030001712c7cb2b",
+    "16620576959f001826",
+    "section_image_hotspots_qffPmj",
+    "1653468546493c13a2",
+    "section_slideshow_bKaRxG",
+    "16548654705529ee49",
+    "78836e0a-6131-4f01-afff-dbdd186d0914",
+    "165346832322a4db6f"
+  ]
+}
