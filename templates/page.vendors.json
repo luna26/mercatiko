@@ -28,6 +28,7 @@
       "block_order": [
         "title"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -36,10 +37,232 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_rich_text_PeBgjt": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_z3WBfq": {
+          "type": "title",
+          "settings": {
+            "title": "<h1><strong>Vende en Mercatiko y haz crecer tu negocio en línea</strong></h1>",
+            "title_underline_style": "none"
+          }
+        },
+        "content_9HRKTt": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>El marketplace creado para emprendedores que quieren vender más, sin complicaciones.</p>"
+          }
+        },
+        "button_w8xFmf": {
+          "type": "button",
+          "settings": {
+            "link_text": "Vender",
+            "link_url": "/",
+            "button_style": "secondary plain"
+          }
+        }
+      },
+      "block_order": [
+        "title_z3WBfq",
+        "content_9HRKTt",
+        "button_w8xFmf"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_gallery_fQkwP6": {
+      "type": "section-gallery",
+      "blocks": {
+        "image_3jRF69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/online-shopping-credit-cards.jpg",
+            "overlay_opacity": 40,
+            "color_palette": "scheme-2",
+            "text_position": "center",
+            "title": "<h3>Pagos con tarjeta y métodos locales</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": false,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": false,
+            "overlay_url": ""
+          }
+        },
+        "image_WJxeRY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/woman-shopping-for-clothes.jpg",
+            "overlay_opacity": 30,
+            "color_palette": "scheme-2",
+            "text_position": "center",
+            "title": "<h2>Acceso inmediato a nuevos clientes</h2>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "image_hWbtyr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shipping-boxes-in-front-of-red-brick.jpg",
+            "overlay_opacity": 15,
+            "color_palette": "scheme-5",
+            "text_position": "center",
+            "title": "<h2>Un marketplace diseñado para crecer contigo</h2>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3jRF69",
+        "image_WJxeRY",
+        "image_hWbtyr"
+      ],
+      "name": "t:sections.gallery.presets.name",
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 2,
+        "height": "16/9",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "show_content_below": false,
+        "content_on_hover_color_palette": "",
+        "layout_mobile": "rows",
+        "mobile_height": "16/9",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_promo_gallery_NHUdqh": {
+      "type": "section-promo-gallery",
+      "blocks": {
+        "image_yMVhb9": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "",
+            "overlay_opacity": 100,
+            "text_position": "text-center align-middle",
+            "title": "1",
+            "title_underline_style": "none",
+            "text": "<p>Te registras como vendedor</p>",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "image_ahTQaY": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "",
+            "overlay_opacity": 100,
+            "text_position": "text-center align-middle",
+            "title": "2",
+            "title_underline_style": "none",
+            "text": "<p>Publicas tus productos</p>",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "image_zhwaxF": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "",
+            "overlay_opacity": 100,
+            "text_position": "text-center align-middle",
+            "title": "3",
+            "title_underline_style": "none",
+            "text": "<ul><li>Recibes la orden y despachas el producto</li></ul>",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yMVhb9",
+        "image_ahTQaY",
+        "image_zhwaxF"
+      ],
+      "name": "t:sections.promo_gallery.presets.name",
+      "settings": {
+        "items_width": 3,
+        "height": "16/9",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "shadow": false,
+        "title_size_blocks": "h2",
+        "layout_mobile": "rows",
+        "height_mobile": "16/9",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_html_ja3UTH": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<h2>¿Cómo funciona?</h2>\n<ul>\n\n<li>\nTe registras como vendedor\n</li>\n\n<li>\nPublicas tus productos\n</li>\n\n<li>\nLos clientes compran\n</li>\n\n<li>\nRecibes la orden y despachas el producto\n</li>\n\n<li>\nNosotros procesamos el pago\n</li>\n<li>\nRecibes tu dinero\n</li>\n</ul>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "section_rich_text_PeBgjt",
+    "section_gallery_fQkwP6",
+    "section_promo_gallery_NHUdqh",
+    "section_custom_html_ja3UTH"
   ]
 }
