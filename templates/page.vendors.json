@@ -337,6 +337,10 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "faq-vendedores": {
+      "type": "faq-vendedores",
+      "settings": {}
     }
   },
   "order": [
@@ -346,6 +350,7 @@
     "section_gallery_fQkwP6",
     "section_promo_gallery_NHUdqh",
     "section_rich_text_pTatcL",
-    "section_rich_text_DkxzbV"
+    "section_rich_text_DkxzbV",
+    "faq-vendedores"
   ]
 }
