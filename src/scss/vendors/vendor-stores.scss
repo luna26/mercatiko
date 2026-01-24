@@ -1,0 +1,95 @@
+.is-store {
+
+  .collection-wrapper header,
+  .shopify-section-breadcrumbs {
+    display: none !important;
+  }
+
+  @media (max-width: 1023px) {
+
+    form[action="./"] {
+      fieldset {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        padding-bottom: 50px;
+
+        hr {
+          display: none;
+        }
+
+        &>span {
+          position: absolute;
+          margin: 0;
+          bottom: 0;
+          left: 0;
+        }
+
+        p {
+          margin: 0;
+          flex: 2;
+
+          @media (min-width: 660px) {
+            flex: none;
+          }
+        }
+
+        .link-btn.desktop-hide {
+          margin: 0 !important;
+          flex: 1;
+          min-width: 110px !important;
+          max-width: 110px;
+        }
+
+        #sort_by {
+          width: 100% !important;
+          max-width: 200px;
+        }
+      }
+    }
+  }
+
+  .vendor-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 25px 0;
+
+    @media (min-width: 660px) {
+      margin: 35px 0 50px 0;
+      gap: 25px;
+    }
+
+    &-info {
+      h1 {
+        margin-bottom: 0px;
+
+        @media (min-width: 660px) {
+          font-size: 48px;
+        }
+      }
+
+      p {
+        margin: 0;
+        color: #a3a3a3;
+        font-size: 12px;
+        text-align: right;
+      }
+    }
+
+    img {
+      width: 80px;
+      height: 80px !important;
+      border-radius: 100%;
+      background-size: contain;
+      overflow: hidden;
+
+      @media (min-width: 660px) {
+        width: 130px;
+        height: 130px !important;
+      }
+    }
+  }
+}

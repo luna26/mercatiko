@@ -1,3 +1,8 @@
+<script src="{{ 'vendor-store.js' | asset_url }}" defer></script>
+{{ 'vendor-stores.css' | asset_url | stylesheet_tag }}
+<script>
+  window.SHOP_VENDORS = {{ shop.vendors | json }};
+</script>
 {%- liquid
   assign collections_menu = empty
   assign quick_links = empty
@@ -99,7 +104,6 @@
     endif
   endif
 
-
   if section.settings.enable_grid_list_toggle
     assign enable_collection_view_choice = true
   endif
@@ -148,151 +152,190 @@
 
 <div class="collection-wrapper {% if show_filters_and_menu %}m6cl{% if section.settings.filter_sticky %} sticky{% endif %}{% endif %}{% if section.settings.filters_menu_alignment == 'right' %} m6cl-inv{% endif %} section-width-{{ section.settings.width }}">
   {%- if show_filters_and_menu -%}<div>{%- endif -%}
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-    	  {%- when '@app' -%}
-          {% render block %}
-        {%- when 'spacer' -%}
-          <div class="module-spacer" style="margin-bottom:{{ block.settings.height }}px;" {{ block.shopify_attributes }}></div>
-        {%- when 'title' -%}
-          <header {% if block.settings.text_alignment == 'center' %}class="text-center"{% endif %} {{ block.shopify_attributes }}>
-            {% if search.performed %}
-              <{{ block.settings.title_size }}>{{ 'search.results_plus_term' | t: term: search.terms }}</{{ block.settings.title_size }}>
-            {% else %}
-              <{{ block.settings.title_size }}>{{ 'search.title' | t }}</{{ block.settings.title_size }}>
-            {% endif %}
-          </header>
-          <form action="{{ routes.search_url }}" method="get" class="f8se no-js">
-    				<p class="m10">{{ 'search.amount_of_results' | t: count: search.results_count, amount: search.results_count }}</p>
-    				<p>
-    					<label for="fea" class="hidden">{{ 'search.title' | t }}</label>
-    					<input type="search" id="fea" name="q" placeholder="{{ 'search.search_form.placeholder' | t }}" autocomplete="off" required {% if search.performed %}value="{{ search.terms }}"{% endif %}>
-    					<button type="submit">{{ 'search.search_form.submit' | t }}</button>
-    				</p>
-    			</form>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when '@app' -%}
+        {% render block %}
+      {%- when 'spacer' -%}
+        <div
+          class="module-spacer"
+          style="margin-bottom:{{ block.settings.height }}px;"
+          {{ block.shopify_attributes }}
+        ></div>
+      {%- when 'title' -%}
+        <header
+          {% if block.settings.text_alignment == 'center' %}
+            class="text-center"
+          {% endif %}
+          {{ block.shopify_attributes }}
+        >
+          {% if search.performed %}
+            <{{ block.settings.title_size }}>
+              {{- 'search.results_plus_term' | t: term: search.terms -}}
+            </{{ block.settings.title_size }}>
+          {% else %}
+            <{{ block.settings.title_size }}>{{ 'search.title' | t }}</{{ block.settings.title_size }}>
+          {% endif %}
+        </header>
+        <form action="{{ routes.search_url }}" method="get" class="f8se no-js">
+          <p class="m10">
+            {{ 'search.amount_of_results' | t: count: search.results_count, amount: search.results_count }}
+          </p>
+          <p>
+            <label for="fea" class="hidden">{{ 'search.title' | t }}</label>
+            <input
+              type="search"
+              id="fea"
+              name="q"
+              placeholder="{{ 'search.search_form.placeholder' | t }}"
+              autocomplete="off"
+              required
+              {% if search.performed %}
+                value="{{ search.terms }}"
+              {% endif %}
+            >
+            <button type="submit">{{ 'search.search_form.submit' | t }}</button>
+          </p>
+        </form>
+        {%- liquid
+          if sorting_block == null and show_filters_and_menu
+            render 'filters-sorting', display: 'mobile-filter-button', sticky: section.settings.filter_mobile_sticky, show_filters: show_filters
+          endif
+        -%}
+      {%- when 'sorting' -%}
+        {%- render 'filters-sorting',
+          display: 'sorting',
+          sticky: section.settings.filter_mobile_sticky,
+          show_filters: show_filters,
+          origin: 'search',
+          object: search,
+          show_amount_of_products: section.settings.show_amount_of_search_results,
+          collection_view: collection_view,
+          enable_collection_view_choice: enable_collection_view_choice,
+          enable_collection_grid_choice: enable_collection_grid_choice,
+          collection_grid_view: width_class,
+          grid_1: first_width_class,
+          grid_2: secondary_width_class,
+          enable_collection_grid_choice_mobile: enable_collection_grid_choice_mobile,
+          collection_grid_view_mobile: width_class_mobile,
+          grid_1_mobile: first_width_class_mobile,
+          grid_2_mobile: secondary_width_class_mobile
+        -%}
+      {%- when 'results' -%}
+        {% paginate search.results by section.settings.pagination_qty %}
           {%- liquid
-            if sorting_block == nil and show_filters_and_menu
-              render 'filters-sorting', display: 'mobile-filter-button', sticky: section.settings.filter_mobile_sticky, show_filters: show_filters
-            endif
+            assign products = search.results | where: 'object_type', 'product'
+            assign articles = search.results | where: 'object_type', 'article'
+            assign pages = search.results | where: 'object_type', 'page'
           -%}
-        {%- when 'sorting' -%}
-          {%- render 'filters-sorting',
-            display: 'sorting',
-            sticky: section.settings.filter_mobile_sticky,
-            show_filters: show_filters,
-            origin: "search",
-            object: search,
-            show_amount_of_products: section.settings.show_amount_of_search_results,
-            collection_view: collection_view,
-            enable_collection_view_choice: enable_collection_view_choice,
-            enable_collection_grid_choice: enable_collection_grid_choice,
-            collection_grid_view: width_class,
-            grid_1: first_width_class,
-            grid_2: secondary_width_class,
-            enable_collection_grid_choice_mobile: enable_collection_grid_choice_mobile,
-            collection_grid_view_mobile: width_class_mobile,
-            grid_1_mobile: first_width_class_mobile,
-            grid_2_mobile: secondary_width_class_mobile
-          -%}
-        {%- when 'results' -%}
-            {% paginate search.results by section.settings.pagination_qty %}
-              {%- liquid
-                assign products = search.results | where: 'object_type', 'product'
-                assign articles = search.results | where: 'object_type', 'article'
-                assign pages = search.results | where: 'object_type', 'page'
-              -%}
-              {%- if section.settings.pagination_type == 'button' and paginate.previous %}
-                {% render 'pagination',
-                        paginate: paginate,
-                        pagination_type: section.settings.pagination_type,
-                        prev_button: true
-                %}
-              {%- endif -%}
-              <div class="results">
-                {%- if products.size > 0 -%}
-                  <ul id="collection" class="l4cl {{ width_class }} {{ width_class_mobile }} mobile-scroll {% if settings.enable_quick_buy %}with-quick-buy{% endif %}{% if collection_view == 'list' %} list{% endif %}{% unless show_filters_and_menu %} mobile-wide{% endunless %}" {{ block.shopify_attributes }}>
-                    {%- liquid
-                      if settings.fill_product_images
-                        assign largest_product_img = collection.products.first
+          {%- if section.settings.pagination_type == 'button' and paginate.previous %}
+            {% render 'pagination',
+              paginate: paginate,
+              pagination_type: section.settings.pagination_type,
+              prev_button: true
+            %}
+          {%- endif -%}
+          <div class="results">
+            {%- if products.size > 0 -%}
+              <ul
+                id="collection"
+                class="l4cl {{ width_class }} {{ width_class_mobile }} mobile-scroll {% if settings.enable_quick_buy %}with-quick-buy{% endif %}{% if collection_view == 'list' %} list{% endif %}{% unless show_filters_and_menu %} mobile-wide{% endunless %}"
+                {{ block.shopify_attributes }}
+              >
+                {%- liquid
+                  if settings.fill_product_images
+                    assign largest_product_img = collection.products.first
+                  else
+                    assign products_in_view = section.settings.products_per_row | times: 2
+                    assign largest_img_width = ''
+                    for product in collection.products limit: products_in_view
+                      if product.selected_or_first_available_variant.featured_image
+                        assign product_image = product.selected_or_first_available_variant.featured_image
                       else
-                        assign products_in_view = section.settings.products_per_row | times: 2
-                        assign largest_img_width = ''
-                        for product in collection.products limit: products_in_view
-                          if product.selected_or_first_available_variant.featured_image
-                            assign product_image = product.selected_or_first_available_variant.featured_image
-                          else
-                            assign product_image = product.featured_image
-                          endif
-                          if largest_img_width == '' or product_image.width > largest_img_width
-                            assign largest_img_width = product_image.width
-                            assign largest_product_img = product
-                          endif
-                        endfor
+                        assign product_image = product.featured_image
                       endif
-                    -%}
-                    {%- for product in products -%}
-                      {%- liquid
-                        capture placeholder_int
-                          cycle 1, 2, 3, 4, 5, 6
-                        endcapture
-                        if forloop.first or largest_product_img == product
-                          assign no_lazyload = true
-                        elsif section.settings.products_per_row_mobile == '2' and forloop.index == 2
-                          assign no_lazyload = true
-                        else
-                          assign no_lazyload = false
-                        endif
-                      -%}
-                      {%- render 'product-item',
-                        product: product,
-                        placeholder_int: placeholder_int,
-                        type: 'both',
-                        quick_buy_compact: section.settings.enable_quick_buy_compact,
-                        enable_quick_buy_desktop: section.settings.enable_quick_buy_desktop,
-                        enable_quick_buy_mobile: section.settings.enable_quick_buy_mobile,
-                        enable_quick_buy_qty_selector: section.settings.enable_quick_buy_qty_selector,
-                        enable_quick_buy_drawer: section.settings.enable_quick_buy_drawer,
-                        enable_color_picker: section.settings.enable_color_picker,
-                        no_lazyload: no_lazyload,
-                        sizes: image_sizes
-                      -%}
-                    {%- endfor -%}
-                  </ul>
-                  {% if page.size > 0 or articles.size > 0 %}<hr>{% endif %}
-                {%- endif -%}
-                {%- if pages.size > 0 -%}
-                  {%- for page in pages -%}
-                    <div>
-                      <header>
-                        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-                      </header>
-                      {{ page.content | strip_html | truncatewords: 50 }}
-                      <br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
-                    </div>
-                    {% unless forloop.last and articles.size == 0 %}
-                      <hr>
-                    {% endunless %}
-                  {%- endfor -%}
-                {%- endif -%}
-                {%- if articles.size > 0 -%}
-				  {{ 'async-l4ne.css' | asset_url | stylesheet_tag }}
-                  <ul class="l4ne">
-                    {%- for article in articles -%}
-                      {%- render 'article-item',
-                        article: article, show_excerpt: section.settings.show_excerpt, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, button_style: section.settings.button_style_post, blog_title_size: section.settings.blog_title_size
-                      -%}
-                    {%- endfor -%}
-                  </ul>
-                {%- endif -%}
-              </div>
-              {% render 'pagination',
-                paginate: paginate,
-                pagination_type: section.settings.pagination_type,
-                show_amount: section.settings.show_amount_of_search_results
-              %}
-          {% endpaginate %}
-      {%- endcase -%}
-    {%- endfor -%}
+                      if largest_img_width == '' or product_image.width > largest_img_width
+                        assign largest_img_width = product_image.width
+                        assign largest_product_img = product
+                      endif
+                    endfor
+                  endif
+                -%}
+                {%- for product in products -%}
+                  {%- liquid
+                    capture placeholder_int
+                      cycle 1, 2, 3, 4, 5, 6
+                    endcapture
+                    if forloop.first or largest_product_img == product
+                      assign no_lazyload = true
+                    elsif section.settings.products_per_row_mobile == '2' and forloop.index == 2
+                      assign no_lazyload = true
+                    else
+                      assign no_lazyload = false
+                    endif
+                  -%}
+                  {%- render 'product-item',
+                    product: product,
+                    placeholder_int: placeholder_int,
+                    type: 'both',
+                    quick_buy_compact: section.settings.enable_quick_buy_compact,
+                    enable_quick_buy_desktop: section.settings.enable_quick_buy_desktop,
+                    enable_quick_buy_mobile: section.settings.enable_quick_buy_mobile,
+                    enable_quick_buy_qty_selector: section.settings.enable_quick_buy_qty_selector,
+                    enable_quick_buy_drawer: section.settings.enable_quick_buy_drawer,
+                    enable_color_picker: section.settings.enable_color_picker,
+                    no_lazyload: no_lazyload,
+                    sizes: image_sizes
+                  -%}
+                {%- endfor -%}
+              </ul>
+              {% if page.size > 0 or articles.size > 0 %}<hr>{% endif %}
+            {%- endif -%}
+            {%- if pages.size > 0 -%}
+              {%- for page in pages -%}
+                <div>
+                  <header>
+                    <h3>
+                      <a href="{{ page.url }}">{{ page.title }}</a>
+                    </h3>
+                  </header>
+                  {{ page.content | strip_html | truncatewords: 50 }}
+                  <br>
+                  <a href="{{ page.url }}" class="strong">
+                    {{- 'general.read_more.read_more' | t }}
+                    <i aria-hidden="true" class="icon-chevron-right"></i
+                  ></a>
+                </div>
+                {% unless forloop.last and articles.size == 0 %}
+                  <hr>
+                {% endunless %}
+              {%- endfor -%}
+            {%- endif -%}
+            {%- if articles.size > 0 -%}
+              {{ 'async-l4ne.css' | asset_url | stylesheet_tag }}
+              <ul class="l4ne">
+                {%- for article in articles -%}
+                  {%- render 'article-item',
+                    article: article,
+                    show_excerpt: section.settings.show_excerpt,
+                    show_image: section.settings.show_image,
+                    show_date: section.settings.show_date,
+                    show_author: section.settings.show_author,
+                    button_style: section.settings.button_style_post,
+                    blog_title_size: section.settings.blog_title_size
+                  -%}
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </div>
+          {% render 'pagination',
+            paginate: paginate,
+            pagination_type: section.settings.pagination_type,
+            show_amount: section.settings.show_amount_of_search_results
+          %}
+        {% endpaginate %}
+    {%- endcase -%}
+  {%- endfor -%}
   {%- if show_filters_and_menu -%}</div>{%- endif -%}
   {% if show_filters_and_menu %}
     <aside>

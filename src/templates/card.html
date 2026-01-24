@@ -1,0 +1,25 @@
+<li class="product-card has-form second-img-hover li" style="" role="none">
+    <figure class="">
+        <span class="s1lb label">
+        </span>
+        <a href="/products/{HANDLE}" aria-label="{TITLE}">
+            <picture>
+                <img src="{SRC}" width="430" height="430" alt="{TITLE}" loading="lazy">
+            </picture>
+        </a>
+        <button class="wishlist-productcard hidden" title="Wishlist" data-product-id="{PRODUCT_ID}"
+            data-variant-id="{VARIANT_ID}">
+            <i class="icon-heart-outline"></i>
+        </button>
+    </figure>
+    <div>
+        <h3><span class="small">
+                {VENDOR}
+            </span><a href="/products/{HANDLE}">{TITLE}</a>
+        </h3>
+        <input type="hidden" name="id" value="{PRODUCT_ID}">
+    </div>
+    <div class="static">
+        <p class="price s1pr">₡{PRICE}</p>
+    </div>
+</li>

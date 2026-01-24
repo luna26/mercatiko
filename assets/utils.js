@@ -1,0 +1,1 @@
+function d(e,i="div",r){const o=Array.from(e instanceof NodeList||Array.isArray(e)?e:[e]),n=document.createElement(i),t=o[0],c=t.parentNode;return r&&n.classList.add(r),c.insertBefore(n,t),o.forEach(a=>n.appendChild(a)),n}export{d as wrapElement};
