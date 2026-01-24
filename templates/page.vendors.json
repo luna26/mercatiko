@@ -58,7 +58,7 @@
         "button_w8xFmf": {
           "type": "button",
           "settings": {
-            "link_text": "Vender",
+            "link_text": "Comienza a vender hoy",
             "link_url": "/",
             "button_style": "secondary plain"
           }
@@ -252,24 +252,97 @@
       "name": "t:sections.promo_gallery.presets.name",
       "settings": {
         "items_width": 3,
-        "height": "16/9",
+        "height": "4/5",
         "width": "boxed",
-        "space_between": 16,
+        "space_between": 7,
         "image_zoom": true,
         "shadow": false,
         "title_size_blocks": "h2",
         "layout_mobile": "rows",
         "height_mobile": "16/9",
+        "spacing_desktop": 30,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_pTatcL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kWh4ew": {
+          "type": "title",
+          "settings": {
+            "title": "<h2><strong>Modelo basado en resultados</strong></h2>",
+            "title_underline_style": "none"
+          }
+        },
+        "content_BLGMMP": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>15% + USD $0.50 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_kWh4ew",
+        "content_BLGMMP"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_DkxzbV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kHD3b7": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Regístrate ahora y empieza a vender hoy</h2>",
+            "title_underline_style": "none"
+          }
+        },
+        "button_fzi3mk": {
+          "type": "button",
+          "settings": {
+            "link_text": "Regístrate ahora",
+            "link_url": "/",
+            "button_style": "secondary plain"
+          }
+        }
+      },
+      "block_order": [
+        "title_kHD3b7",
+        "button_fzi3mk"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
     },
-    "section_custom_html_ja3UTH": {
+    "section_custom_html_UgT3ne": {
       "type": "section-custom-html",
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
-        "custom_html": "<h2>¿Cómo funciona?</h2>\n<ul>\n\n<li>\nTe registras como vendedor\n</li>\n\n<li>\nPublicas tus productos\n</li>\n\n<li>\nLos clientes compran\n</li>\n\n<li>\nRecibes la orden y despachas el producto\n</li>\n\n<li>\nNosotros procesamos el pago\n</li>\n<li>\nRecibes tu dinero\n</li>\n</ul>",
+        "custom_html": "<div class=\"faq-container\">\n\n  <h2 class=\"faq-title\">Preguntas frecuentes</h2>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Quién puede vender en Mercatiko?</button>\n    <div class=\"faq-answer\">\n      <p>Cualquier emprendedor, pyme o negocio formal que ofrezca productos físicos y cumpla con nuestras políticas de calidad y servicio.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Tiene algún costo registrarse?</button>\n    <div class=\"faq-answer\">\n      <p>No. Registrarte es gratis. Solo cobramos una comisión cuando realizas una venta.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Cuál es la comisión por venta?</button>\n    <div class=\"faq-answer\">\n      <p>Nuestra comisión es del <strong>15% + USD $0.50 por transacción</strong>. Esta comisión cubre el uso de la plataforma, el procesamiento de pagos y el soporte al vendedor.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Tengo que crear mi propia tienda en línea?</button>\n    <div class=\"faq-answer\">\n      <p>No. En Mercatiko te brindamos una vitrina digital lista para vender, sin necesidad de desarrollar o mantener una tienda propia.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Cómo recibo los pedidos?</button>\n    <div class=\"faq-answer\">\n      <p>Cuando un cliente compra uno de tus productos, recibirás una notificación con todos los detalles para preparar y despachar el pedido.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Quién se encarga del envío?</button>\n    <div class=\"faq-answer\">\n      <p>El envío puede gestionarse por el vendedor o mediante aliados logísticos, según el modelo establecido durante la activación.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Cuándo y cómo recibo mi dinero?</button>\n    <div class=\"faq-answer\">\n      <p>Los pagos se procesan de forma segura y se liquidan según el calendario establecido. Siempre tendrás visibilidad de tus ventas.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Puedo vender mis propios productos o marcas?</button>\n    <div class=\"faq-answer\">\n      <p>Sí. Puedes vender productos de tu propia marca o marcas autorizadas, siempre que cumplas con nuestras políticas.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Qué tipo de soporte ofrecen?</button>\n    <div class=\"faq-answer\">\n      <p>Ofrecemos soporte para registro, publicación de productos, incidencias con pedidos y acompañamiento técnico.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Hay exclusividad con Mercatiko?</button>\n    <div class=\"faq-answer\">\n      <p>No. Puedes vender en otros canales además de Mercatiko sin ningún problema.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">¿Cómo me registro como vendedor?</button>\n    <div class=\"faq-answer\">\n      <p>Solo debes completar el formulario de registro. Nuestro equipo revisará tu información y te contactará para continuar.</p>\n    </div>\n  </div>\n\n</div>\n\n<style>\n  .faq-container {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n  }\n\n  .faq-title {\n    text-align: center;\n    margin-bottom: 24px;\n  }\n\n  .faq-item {\n    border-bottom: 1px solid #e5e5e5;\n  }\n\n  .faq-question {\n    width: 100%;\n    background: none;\n    border: none;\n    padding: 16px;\n    text-align: left;\n    font-size: 16px;\n    font-weight: 600;\n    cursor: pointer;\n    position: relative;\n  }\n\n  .faq-question::after {\n    content: \"+\";\n    position: absolute;\n    right: 16px;\n    font-size: 20px;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-item.active .faq-question::after {\n    content: \"–\";\n  }\n\n  .faq-answer {\n    max-height: 0;\n    overflow: hidden;\n    transition: max-height 0.3s ease;\n  }\n\n  .faq-answer p {\n    padding: 0 16px 16px;\n    margin: 0;\n    color: #555;\n  }\n</style>\n\n<script>\n  document.querySelectorAll('.faq-question').forEach(button => {\n    button.addEventListener('click', () => {\n      const item = button.parentElement;\n      const answer = button.nextElementSibling;\n\n      item.classList.toggle('active');\n\n      if (item.classList.contains('active')) {\n        answer.style.maxHeight = answer.scrollHeight + 'px';\n      } else {\n        answer.style.maxHeight = null;\n      }\n    });\n  });\n</script>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -282,6 +355,8 @@
     "section_rich_text_PeBgjt",
     "section_gallery_fQkwP6",
     "section_promo_gallery_NHUdqh",
-    "section_custom_html_ja3UTH"
+    "section_rich_text_pTatcL",
+    "section_rich_text_DkxzbV",
+    "section_custom_html_UgT3ne"
   ]
 }
