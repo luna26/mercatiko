@@ -25,7 +25,7 @@
   {% endfor %}
 </div>
 
-<style>
+{% comment %} <style>
 .faq-container{max-width:900px;margin:0 auto;padding:32px}
 .faq-title{text-align:center;margin-bottom:32px}
 .faq-item{border-bottom:1px solid #e5e5e5}
@@ -34,7 +34,7 @@
 .faq-item.active .faq-question:after{content:'–'}
 .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
 .faq-answer p{padding:0 16px 16px;margin:0;color:#555}
-</style>
+</style> {% endcomment %}
 
 {% comment %} <script>
 document.addEventListener('DOMContentLoaded',function(){
