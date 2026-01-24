@@ -496,7 +496,8 @@
       "multiples_of": "incremento de {{ quantity }}"
     },
     "remote_product": "Vendido por otro store",
-    "remote_product_shop": "Vendido por {{ shop_name }}"
+    "remote_product_shop": "Vendido por {{ shop_name }}",
+    "new_tag": "Nuevo"
   },
   "search": {
     "title": "Busca en",

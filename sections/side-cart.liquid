@@ -375,10 +375,16 @@
         {%- endif -%}
       </p>
     </form>
+    <img
+      class="payment-badges"
+      src="https://cdn.shopify.com/s/files/1/0753/3212/4850/files/payment-logos_77f1f0bb-26b6-4cbb-88c7-f02905c71b33.jpg?v=1769286785"
+    >
   </div>
-  {%- if settings.show_trustbadge -%}
-    {%- render 'trustbadge' -%}
-  {%- endif -%}
+  {% comment %}
+    {%- if settings.show_trustbadge -%}
+      {%- render 'trustbadge' -%}
+    {%- endif -%}
+  {% endcomment %}
   <ul class="l4pm text-center">
     {%- for payment_method in shop.enabled_payment_types -%}
       <li>{{ payment_method | payment_type_svg_tag }}</li>
