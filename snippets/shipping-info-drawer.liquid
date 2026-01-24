@@ -1,0 +1,54 @@
+<!-- ========================== -->
+<!-- CAMPOS DE DIRECCIÓN CR -->
+<!-- ========================== -->
+<div
+  id="shipping-address-container"
+  class="shipping-address-container"
+>
+  <button class="shipping-address-header-btn" type="button">
+    <div class="shipping-address-header">
+      <div class="shipping-address-header-info">
+        <h4>Dirección de entrega <strong>(requerido)</strong></h4>
+      </div>
+      <img class="arrow" src="{{ 'arrow.png' | asset_url }}" width="16px" height="16px">
+      {% comment %} <p class="shipping-disclaimer">Se solicitarán más detalles sobre la entrega en la página de pago.</p> {% endcomment %}
+    </div>
+    <div class="shipping-address flex">
+      <!-- PROVINCIA -->
+      <label>
+        <select
+          id="provincia"
+          name="attributes[Provincia]"
+          required
+        >
+          <option value="">Provincia</option>
+        </select>
+      </label>
+
+      <!-- CANTON -->
+      <label>
+        <select
+          id="canton"
+          name="attributes[Canton]"
+          required
+        >
+          <option value="">Cantón</option>
+        </select>
+      </label>
+
+      <!-- DISTRITO -->
+      <label>
+        <select
+          id="distrito"
+          name="attributes[Distrito]"
+          required
+        >
+          <option value="">Distrito</option>
+        </select>
+      </label>
+      <p class="shipping-info-disclaimer">
+        Detalles de entrega, casa, ubicación y notas será solicitados en la página de pago.
+      </p>
+    </div>
+  </button>
+</div>

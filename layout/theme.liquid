@@ -7,6 +7,7 @@
   class="no-js {% if settings.enable_accessibility_default %}t1ac{% endif %}{% if request.design_mode %} theme-editor{% endif %}{% unless settings.enable_hyphens %} no-hyph{% endunless %}"
 >
   <head>
+    {{ 'shipping-info-drawer.css' | asset_url | stylesheet_tag }}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
@@ -252,5 +253,11 @@
     {%- endif -%}
     {%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
     {{ settings.custom_script_for_body }}
+    <script src="{{ 'cart-drawer-shipping.js' | asset_url }}" defer></script>
+    <script>
+      if (window.location.pathname === '/cart') {
+        window.location.href = '/?open_cart=true';
+      }
+    </script>
   </body>
 </html>

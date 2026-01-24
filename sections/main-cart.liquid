@@ -46,7 +46,11 @@
   </article>
 {%- else -%}
   <{{ section.settings.title_size }}>{{ 'cart.title' | t }}</{{ section.settings.title_size }}>
-  <article class="form-cart section-width-{{ section.settings.width }}" data-totalqty="{{ cart.item_count }}" data-totalprice="{{ cart.total_price | money }}">
+  <article
+    class="form-cart section-width-{{ section.settings.width }}"
+    data-totalqty="{{ cart.item_count }}"
+    data-totalprice="{{ cart.total_price | money }}"
+  >
     <fieldset>
       <legend>{{ 'cart.title' | t }}</legend>
       <div class="cols aside b50">
@@ -232,7 +236,9 @@
                 </p>
                 <footer>
                   <p class="input-amount {% unless can_update_quantity %}hidden{% endunless %}">
-                    <label for="qty-main-{{ line_item.index | plus: 1 }}" class="hidden">{{ 'cart.product.qty' | t }}</label>
+                    <label for="qty-main-{{ line_item.index | plus: 1 }}" class="hidden">
+                      {{- 'cart.product.qty' | t -}}
+                    </label>
                     <input
                       type="number"
                       name="updates[]"
@@ -256,7 +262,7 @@
                       {% endif %}
                     >
                   </p>
-                  
+
                   <p class="{% unless can_remove %}hidden{% endunless %}">
                     <a
                       class="remove-from-cart-link"
@@ -428,7 +434,7 @@
               </span>
               {{ cart.total_price | money }}
             </li>
-          </ul>          
+          </ul>
           <form class="f8vl" id="{{ form_id }}" data-hold="0" action="{{ routes.cart_url }}" method="post">
             <input type="hidden" name="attributes[collection_grid_view]" value="">
             <input type="hidden" name="attributes[collection_grid_view_mobile]" value="">

@@ -25,6 +25,7 @@
 <header data-totalqty="{{ cart.item_count }}" data-totalprice="{{ cart.total_price | money }}">
   <{{ settings.drawers_font_size_heading }}>{{ 'cart.title' | t }}</{{ settings.drawers_font_size_heading }}>
 </header>
+{% render 'shipping-info-drawer' %}
 {%- if cart.item_count == 0 -%}
   <p>
     <span class="empty">{{ settings.empty_cart_text | remove: '</p>' | remove: '<p>' }}</span>
@@ -47,7 +48,7 @@
       assign children_id = ''
       if line_item.parent_relationship.parent != null
         assign parent_key = line_item.parent_relationship.parent.key
-      else 
+      else
         for item in cart.items
           if item.parent_relationship.parent.key == line_item.key
             assign children_id = children_id | append: item.id | append: ','
@@ -347,6 +348,9 @@
     {% endif %}
 
     <form class="f8vl" action="{{ routes.cart_url }}" method="post" data-hold="0">
+      <input name="attributes[Provincia]" id="province" required hidden>
+      <input name="attributes[Canton]" id="district" required hidden>
+      <input name="attributes[Distrito]" id="county" required hidden>
       <p class="link-btn wide m10">
         <a
           class="overlay-buy_button{% if settings.button_style == 'inv' %} inv{% endif %}"

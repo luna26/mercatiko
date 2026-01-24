@@ -1255,7 +1255,7 @@
         "id": "empty_cart_text",
         "type": "richtext",
         "label": "t:settings_schema.cart.settings.empty_cart_text.label",
-        "default": "<p>Your cart is empty..</p>"
+        "default": "<p>Tu carrito está vacío.</p>"
       },
       {
         "type": "header",
@@ -1315,7 +1315,7 @@
         "type": "checkbox",
         "label": "t:settings_schema.cart.settings.upsell.enable_cart_drawer_upsell_related.label"
       },
-	  {
+      {
         "id": "cart_drawer_upsell_limit",
         "type": "range",
         "label": "t:settings_schema.cart.settings.upsell.cart_drawer_upsell_limit.label",
