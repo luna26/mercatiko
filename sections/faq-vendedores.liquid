@@ -1,0 +1,200 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .faq-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 32px 20px;
+    }
+
+    .faq-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .faq-item {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .faq-question {
+        width: 100%;
+        background: none;
+        border: none;
+        padding: 18px 16px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .faq-question::after {
+        content: "+";
+        position: absolute;
+        right: 16px;
+        font-size: 22px;
+    }
+
+    .faq-item.active .faq-question::after {
+        content: "–";
+    }
+
+    .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease;
+    }
+
+    .faq-answer p {
+        padding: 0 16px 18px;
+        margin: 0;
+        color: #555;
+        line-height: 1.6;
+    }
+</style>
+
+<div class="faq-container">
+    <h1 class="faq-title">Preguntas frecuentes para vendedores</h1>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Quién puede vender en Mercatiko?</button>
+        <div class="faq-answer">
+            <p>Cualquier emprendedor, pyme o negocio formal que ofrezca productos físicos y cumpla con nuestras
+                políticas de calidad y servicio.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Tiene algún costo registrarse?</button>
+        <div class="faq-answer">
+            <p>No. Registrarte es gratis. Solo cobramos una comisión cuando realizas una venta.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Cuál es la comisión por venta?</button>
+        <div class="faq-answer">
+            <p>Nuestra comisión es del <strong>15% + USD $0.50 por transacción</strong>. Esta comisión cubre el uso de
+                la plataforma, el procesamiento de pagos y el soporte al vendedor.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Tengo que crear mi propia tienda en línea?</button>
+        <div class="faq-answer">
+            <p>No. En Mercatiko te brindamos una vitrina digital lista para vender, sin necesidad de crear o mantener
+                una tienda propia.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Cómo recibo los pedidos?</button>
+        <div class="faq-answer">
+            <p>Cuando un cliente compra uno de tus productos, recibes una notificación con todos los detalles del pedido
+                para su preparación y despacho.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Quién se encarga del envío?</button>
+        <div class="faq-answer">
+            <p>Dependiendo del modelo, el envío puede ser gestionado directamente por el vendedor o a través de aliados
+                logísticos del marketplace.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Cuándo y cómo recibo mi dinero?</button>
+        <div class="faq-answer">
+            <p>Los pagos se procesan a través de plataformas seguras y se liquidan según el calendario de pagos
+                establecido. Siempre podrás ver el detalle de tus ventas.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Puedo vender mis propios productos y marcas?</button>
+        <div class="faq-answer">
+            <p>Sí. Puedes vender productos de tu propia marca o marcas autorizadas, siempre que cumplas con nuestras
+                políticas.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Qué tipo de soporte ofrecen?</button>
+        <div class="faq-answer">
+            <p>Ofrecemos soporte para el registro, publicación de productos, gestión de pedidos e incidencias técnicas o
+                comerciales.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Puedo editar o eliminar mis productos?</button>
+        <div class="faq-answer">
+            <p>Sí. Podrás gestionar tu catálogo, precios y disponibilidad según las reglas del marketplace.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Hay exclusividad con Mercatiko?</button>
+        <div class="faq-answer">
+            <p>No. Puedes vender en Mercatiko y en otros canales al mismo tiempo.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Qué pasa si tengo un problema con un pedido?</button>
+        <div class="faq-answer">
+            <p>Nuestro equipo de soporte te ayudará a gestionar cualquier incidencia con el cliente o el envío.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Cómo me registro como vendedor?</button>
+        <div class="faq-answer">
+            <p>Debes completar el formulario de registro. Nuestro equipo revisará tu información y te contactará para
+                continuar con la activación.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Cuánto tiempo tarda la aprobación?</button>
+        <div class="faq-answer">
+            <p>El tiempo de aprobación puede variar, pero normalmente respondemos en un plazo corto para que empieces a
+                vender cuanto antes.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button type="button" class="faq-question">¿Puedo dejar de vender cuando quiera?</button>
+        <div class="faq-answer">
+            <p>Sí. No hay contratos de permanencia ni penalizaciones por dejar de vender.</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    (function () {
+        const questions = document.querySelectorAll('.faq-question');
+
+        questions.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const item = btn.parentElement;
+                const answer = btn.nextElementSibling;
+
+                item.classList.toggle('active');
+
+                if (item.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                } else {
+                    answer.style.maxHeight = null;
+                }
+            });
+        });
+    })();
+</script>
