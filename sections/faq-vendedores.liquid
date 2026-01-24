@@ -25,16 +25,16 @@
   {% endfor %}
 </div>
 
-{% comment %} <style>
+<style>
 .faq-container{max-width:900px;margin:0 auto;padding:32px}
 .faq-title{text-align:center;margin-bottom:32px}
 .faq-item{border-bottom:1px solid #e5e5e5}
 .faq-question{width:100%;background:none;border:0;padding:16px;text-align:left;font-weight:600;cursor:pointer;position:relative}
-.faq-question:after{content:'+';position:absolute;right:16px;font-size:22px}
+{% comment %} .faq-question:after{content:'+';position:absolute;right:16px;font-size:22px} {% endcomment %}
 .faq-item.active .faq-question:after{content:'–'}
 .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
 .faq-answer p{padding:0 16px 16px;margin:0;color:#555}
-</style> {% endcomment %}
+</style>
 
 <script>
 document.addEventListener('DOMContentLoaded',function(){
