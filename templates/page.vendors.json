@@ -83,6 +83,53 @@
         "fix_zindex": 0
       }
     },
+    "section_rich_text_qj67Rf": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_eXLtxF": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "<h2>Tell something about your brand</h2>",
+            "title_underline_style": "none"
+          }
+        },
+        "content_nQFUG8": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>✓ Página exclusiva para destacar tu marca y productos.<br/>✓ Pagos con tarjeta y métodos locales<br/>✓ Mayor visibilidad gracias al tráfico del marketplace.<br/>✓ Herramientas para gestionar pedidos y stock</p>"
+          }
+        },
+        "button_KUeBee": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "Button",
+            "link_url": "/",
+            "button_style": "secondary plain"
+          }
+        }
+      },
+      "block_order": [
+        "title_eXLtxF",
+        "content_nQFUG8",
+        "button_KUeBee"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "scheme-6",
+        "overlay_opacity": 100,
+        "text_alignment": "start",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
+    },
     "section_gallery_fQkwP6": {
       "type": "section-gallery",
       "blocks": {
@@ -146,6 +193,7 @@
         "image_WJxeRY",
         "image_hWbtyr"
       ],
+      "disabled": true,
       "name": "t:sections.gallery.presets.name",
       "settings": {
         "items_layout": "playful-grid",
@@ -383,6 +431,7 @@
     "breadcrumbs",
     "main-page",
     "section_rich_text_PeBgjt",
+    "section_rich_text_qj67Rf",
     "section_gallery_fQkwP6",
     "section_promo_gallery_NHUdqh",
     "section_rich_text_pTatcL",
