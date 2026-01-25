@@ -30,7 +30,7 @@
       ],
       "disabled": true,
       "settings": {
-        "max_width": 980,
+        "max_width": 1280,
         "content_alignment": "start",
         "text_alignment": "start",
         "spacing_desktop": 50,
