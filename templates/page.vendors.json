@@ -323,7 +323,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p><strong>Costos por transaccion:<br/></strong>+ 2% en plataforma de ecomerce<br/>+ 4.9% + 0.4$ pasarela de pagos<br/>+ 8.1% comision Marketico (IVA incluido)<br/><br/><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?</strong><br/></p><p>✓  Dominio<br/>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/><br/></p>"
+            "text": "<p><strong>Costos por transacción:</strong><br/>+ 2% en plataforma de e-commerce<br/>+ 4.9% + $0.40 pasarela de pagos<br/>+ 8.1% comisión Marketico (IVA incluido)<br/></p><p><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?</strong></p><p>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
           }
         }
       },
