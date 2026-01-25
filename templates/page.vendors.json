@@ -312,31 +312,23 @@
     "section_rich_text_jbLzRC": {
       "type": "section-rich-text",
       "blocks": {
-        "title_jCkfhC": {
-          "type": "title",
-          "settings": {
-            "title": "",
-            "title_underline_style": "none"
-          }
-        },
         "content_xq7rRF": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p><strong>Costos por transacción:</strong><br/>+ 2% en plataforma de e-commerce<br/>+ 4.9% + $0.40 pasarela de pagos<br/>+ 8.1% comisión Marketico (IVA incluido)<br/></p><p><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?</strong></p><p>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
+            "text": "<p><strong>Costos por transacción</strong><br/>+ 2% en plataforma de e-commerce<br/>+ 4.9% + $0.40 pasarela de pagos<br/>+ 8.1% comisión Marketico (IVA incluido)</p><p><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?<br/></strong>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
           }
         }
       },
       "block_order": [
-        "title_jCkfhC",
         "content_xq7rRF"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "color_palette": "scheme-6",
         "overlay_opacity": 100,
-        "text_alignment": "start",
-        "content_width": 1280,
+        "text_alignment": "center",
+        "content_width": 360,
         "height": "size-s",
         "width_banner": "boxed",
         "width": "wide",
