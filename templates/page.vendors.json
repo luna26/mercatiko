@@ -325,15 +325,15 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "color_palette": "scheme-6",
+        "color_palette": "scheme-1",
         "overlay_opacity": 100,
         "text_alignment": "center",
-        "content_width": 360,
+        "content_width": 1280,
         "height": "size-s",
         "width_banner": "boxed",
         "width": "wide",
-        "spacing_desktop": 50,
-        "spacing_mobile": 10,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
@@ -362,7 +362,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "color_palette": "",
+        "color_palette": "scheme-6",
         "overlay_opacity": 100,
         "text_alignment": "center",
         "content_width": 1280,
