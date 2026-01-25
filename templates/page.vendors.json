@@ -59,7 +59,7 @@
           "type": "button",
           "settings": {
             "link_text": "Comienza a vender hoy",
-            "link_url": "/",
+            "link_url": "shopify://pages/registro-vendedores",
             "button_style": "secondary plain"
           }
         }
