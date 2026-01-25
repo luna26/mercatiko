@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "hide_mobile": false
       }
@@ -28,6 +29,7 @@
       "block_order": [
         "title"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -36,10 +38,21 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_html_7UrJkH": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<div>\n<iframe style=\"border: 1px solid #dfe3e8;\" src=\"https://register.shipturtle.com?company_id=1038817&amp;shop_id=11069&amp;custom_domain=https://next.app.shipturtle.com\" height=\"1000\" width=\"100%\" title=\"Vendor Registration Page\">\n</iframe>\n</div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "section_custom_html_7UrJkH"
   ]
 }
