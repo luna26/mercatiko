@@ -33,7 +33,6 @@
         },
         "c9a8027f-3a8d-4084-adbf-29db94608977": {
           "type": "menu",
-          "disabled": true,
           "settings": {
             "menu": "footer",
             "split_menu": false
