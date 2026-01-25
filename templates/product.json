@@ -198,7 +198,8 @@
         "f2290434-741b-4731-a534-ad679331e164"
       ],
       "custom_css": [
-        ".shopify-payment-button__button {display: none}"
+        ".shopify-payment-button__button {display: none;}",
+        " .l4al-trustbadge {display: none}"
       ],
       "settings": {
         "width": "boxed",
