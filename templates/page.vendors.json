@@ -315,7 +315,7 @@
           "type": "button",
           "settings": {
             "link_text": "Regístrate ahora",
-            "link_url": "/",
+            "link_url": "shopify://pages/registro-vendedores",
             "button_style": "secondary plain"
           }
         }
