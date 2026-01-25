@@ -424,7 +424,256 @@
     },
     "faq-vendedores": {
       "type": "faq-vendedores",
+      "disabled": true,
       "settings": {}
+    },
+    "section_faq_eLK984": {
+      "type": "section-faq",
+      "blocks": {
+        "text_rgHQWJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Quién puede vender en Mercatiko?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Cualquier emprendedor, pyme o negocio formal que ofrezca productos físicos y cumpla con nuestras políticas de calidad y servicio.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_ycBUyX": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Tiene algún costo registrarse?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Registrarte es gratis. Solo cobramos una comisión cuando realizas una venta.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_JpWNBy": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Cuál es la comisión por venta?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Nuestra comisión es del 15% + USD $0.40 por transacción.<br/><br/></p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_n8KgDp": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Cómo recibo los pedidos?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Recibes una notificación con los detalles del pedido en nuestro sistema.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Q37nTg": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Quién se encarga del envío?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>El envío es gestionado por el vendedor mediante Correos de Costa Rica. Actualmente, es el único courier soportado por el momento.<br/><br/></p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_zdT7Uz": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Cuándo y cómo recibo mi dinero?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Una vez que Correos de Costa Rica notifica que el paquete fue entregado, se otorgan 2 días hábiles para realizar el pago de la orden al vendeor por medio de transferencia bancaria.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_z4yiJ9": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Qué tipo de soporte ofrecen?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Soporte técnico y acompañamiento comercial.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_8VdxPf": {
+          "type": "text",
+          "settings": {
+            "faq_question": "¿Cómo me registro?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Completa el formulario de registro.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "<a href=\"/pages/registro-vendedores\">Registro</a>",
+            "show_contact_form": false
+          }
+        },
+        "text_LXXFdn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Wneh8V": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_yzbFmW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_PALqtM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_9pmrQb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_3iPNLd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "text_rgHQWJ",
+        "text_ycBUyX",
+        "text_JpWNBy",
+        "text_n8KgDp",
+        "text_Q37nTg",
+        "text_zdT7Uz",
+        "text_z4yiJ9",
+        "text_8VdxPf",
+        "text_LXXFdn",
+        "text_Wneh8V",
+        "text_yzbFmW",
+        "text_PALqtM",
+        "text_9pmrQb",
+        "text_3iPNLd"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "alignment": "left",
+        "compact": false,
+        "width": "boxed",
+        "title": "<h2>Preguntas frecuentes</h2>",
+        "title_underline_style": "none",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -437,6 +686,7 @@
     "section_rich_text_pTatcL",
     "section_rich_text_jbLzRC",
     "section_rich_text_DkxzbV",
-    "faq-vendedores"
+    "faq-vendedores",
+    "section_faq_eLK984"
   ]
 }
