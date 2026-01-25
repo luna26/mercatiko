@@ -86,7 +86,7 @@
   }
 
   function goToVendor(handle) {
-    window.location.href = `/search?q=${handle}`
+    window.location.href = `/collections/vendors?q=${handle}`
   }
 
   function init() {
