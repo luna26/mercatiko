@@ -1,0 +1,1 @@
+(function(){function e(){c()}function c(){document.addEventListener("click",n=>{const t=n.target.closest("button");t&&t.matches(".faq-question")&&(document.querySelectorAll(".faq-active").forEach(a=>a.classList.remove("faq-active")),t.parentNode.classList.toggle("faq-active"))})}e()})();

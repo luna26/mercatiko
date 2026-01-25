@@ -1,0 +1,40 @@
+.faq-contaienr {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    .faq-answer {
+        display: none;
+
+        p {
+            padding: 20px 20px 5px 20px;
+            margin-bottom: 0;
+        }
+    }
+
+    button {
+        margin: 0;
+        color: white;
+
+        // &:before {
+        //     ba
+        // }
+    }
+
+    &.faq-active {
+        .faq-answer {
+            display: flex;
+        }
+    }
+}

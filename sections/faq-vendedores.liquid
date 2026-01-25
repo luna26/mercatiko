@@ -1,21 +1,23 @@
 <div class="faq-container">
-  <h2 class="faq-title">Preguntas frecuentes para vendedores</h2>
+  {{ 'faqs.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'faq.js' | asset_url }}"></script>
+  <h2 class="faq-title">Preguntas frecuentes</h2>
 
-  {% assign faqs = 
-  "¿Quién puede vender en Mercatiko?|Cualquier emprendedor, pyme o negocio formal que ofrezca productos físicos y cumpla con nuestras políticas de calidad y servicio.,
-   ¿Tiene algún costo registrarse?|Registrarte es gratis. Solo cobramos una comisión cuando realizas una venta.,
-   ¿Cuál es la comisión por venta?|Nuestra comisión es del 15% + USD $0.50 por transacción.,
-   ¿Tengo que crear mi propia tienda en línea?|No. Te brindamos una vitrina digital lista para vender.,
-   ¿Cómo recibo los pedidos?|Recibes una notificación con los detalles del pedido.,
-   ¿Quién se encarga del envío?|El envío puede gestionarse por el vendedor o aliados logísticos.,
-   ¿Cuándo y cómo recibo mi dinero?|Los pagos se liquidan según el calendario establecido.,
-   ¿Puedo vender mis propios productos?|Sí, puedes vender productos de tu marca.,
-   ¿Qué tipo de soporte ofrecen?|Soporte técnico y acompañamiento comercial.,
-   ¿Hay exclusividad?|No. Puedes vender en otros canales.,
-   ¿Cómo me registro?|Completa el formulario de registro." | split: "," %}
+  {% assign faqs = '¿Quién puede vender en Mercatiko?|Cualquier emprendedor, pyme o negocio formal que ofrezca productos físicos y cumpla con nuestras políticas de calidad y servicio.*
+   ¿Tiene algún costo registrarse?|Registrarte es gratis. Solo cobramos una comisión cuando realizas una venta.*
+   ¿Cuál es la comisión por venta?|Nuestra comisión es del 15% + USD $0.50 por transacción.*
+   ¿Tengo que crear mi propia tienda en línea?|No. Te brindamos una vitrina digital lista para vender.*
+   ¿Cómo recibo los pedidos?|Recibes una notificación con los detalles del pedido en nuestro sistema.*
+   ¿Quién se encarga del envío?|El envío es gestionado por el vendedor mediante Correos de Costa Rica. Actualmente, es el único courier soportado.*
+   ¿Cuándo y cómo recibo mi dinero?|Una vez que Correos de Costa Rica notifica que el paquete fue entregado, se otorgan 2 días hábiles para realizar el pago de la orden al vendeor por medio de transferencia bancaria.*
+   ¿Puedo vender mis propios productos?|Sí, puedes vender productos de tu marca.*
+   ¿Qué tipo de soporte ofrecen?|Soporte técnico y acompañamiento comercial.*
+   ¿Cómo me registro?|Completa el formulario de registro.'
+    | split: '*'
+  %}
 
   {% for item in faqs %}
-    {% assign parts = item | split: "|" %}
+    {% assign parts = item | split: '|' %}
     <div class="faq-item">
       <button type="button" class="faq-question">{{ parts[0] }}</button>
       <div class="faq-answer">
@@ -25,31 +27,32 @@
   {% endfor %}
 </div>
 
-<style>
-.faq-container{max-width:900px;margin:0 auto;padding:32px}
-.faq-title{text-align:center;margin-bottom:32px}
-.faq-item{border-bottom:1px solid #e5e5e5}
-.faq-question{width:100%;background:none;border:0;padding:16px;text-align:left;font-weight:600;cursor:pointer;position:relative}
-{% comment %} .faq-question:after{content:'+';position:absolute;right:16px;font-size:22px} {% endcomment %}
-.faq-item.active .faq-question:after{content:'–'}
-.faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
-.faq-answer p{padding:0 16px 16px;margin:0;color:#555}
-</style>
+{% comment %}
+  <style>
+  .faq-container{max-width:900px;margin:0 auto;padding:32px}
+  .faq-title{text-align:center;margin-bottom:32px}
+  .faq-item{border-bottom:1px solid #e5e5e5}
+  .faq-question{width:100%;background:none;border:0;padding:16px;text-align:left;font-weight:600;cursor:pointer;position:relative}
+  {% comment %} .faq-question:after{content:'+';position:absolute;right:16px;font-size:22px} {% endcomment %}
+  .faq-item.active .faq-question:after{content:'–'}
+  .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .faq-answer p{padding:0 16px 16px;margin:0;color:#555}
+  </style>
+{% endcomment %}
 
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-  document.querySelectorAll('.faq-question').forEach(function(btn){
-    btn.addEventListener('click',function(){
-      const item = btn.parentElement;
-      const answer = btn.nextElementSibling;
-      item.classList.toggle('active');
-      answer.style.maxHeight = item.classList.contains('active')
-        ? answer.scrollHeight + 'px'
-        : null;
+{% comment %}
+  <script>
+    document.addEventListener('click', function (e) {});
+    document.querySelectorAll('.faq-question').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const item = btn.parentElement;
+        const answer = btn.nextElementSibling;
+        item.classList.toggle('active');
+        answer.style.maxHeight = item.classList.contains('active') ? answer.scrollHeight + 'px' : null;
+      });
     });
-  });
-});
-</script>
+  </script>
+{% endcomment %}
 
 {% schema %}
 {
