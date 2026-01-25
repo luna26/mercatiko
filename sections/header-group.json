@@ -74,7 +74,7 @@
         "7db5eae6-23ed-4bae-85f9-3b91f023c974"
       ],
       "custom_css": [
-        "@media (min-width: 1024px) {#header-inner .link-btn {display: none;} }"
+        "@media (min-width: 1024px) {#header-inner .link-btn {display: none; }}"
       ],
       "settings": {
         "layout": "layout_4",
