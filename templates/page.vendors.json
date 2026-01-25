@@ -279,17 +279,25 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>15% + USD $0.50 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
+            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>15% + USD $0.40 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
+          }
+        },
+        "content_FjDfyh": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>En <strong>Marketico creemos en la transparencia. </strong>Por eso hemos decidido compartir cómo se reparte el 15% de comisión. De esta manera esperamos que los vendedores tomen conciencia de que nuestro objetivo es ayudarlos y hacer que todos crezcamos juntos.</p>"
           }
         }
       },
       "block_order": [
         "title_kWh4ew",
-        "content_BLGMMP"
+        "content_BLGMMP",
+        "content_FjDfyh"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "color_palette": "",
+        "color_palette": "scheme-6",
         "overlay_opacity": 100,
         "text_alignment": "center",
         "content_width": 1280,
@@ -298,6 +306,42 @@
         "width": "wide",
         "spacing_desktop": 0,
         "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_jbLzRC": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_jCkfhC": {
+          "type": "title",
+          "settings": {
+            "title": "",
+            "title_underline_style": "none"
+          }
+        },
+        "content_xq7rRF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p><strong>Costos por transaccion:<br/></strong>+ 2% en plataforma de ecomerce<br/>+ 4.9% + 0.4$ pasarela de pagos<br/>+ 8.1% comision Marketico (IVA incluido)<br/><br/><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?</strong><br/></p><p>✓  Dominio<br/>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_jCkfhC",
+        "content_xq7rRF"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "scheme-6",
+        "overlay_opacity": 100,
+        "text_alignment": "start",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
@@ -350,6 +394,7 @@
     "section_gallery_fQkwP6",
     "section_promo_gallery_NHUdqh",
     "section_rich_text_pTatcL",
+    "section_rich_text_jbLzRC",
     "section_rich_text_DkxzbV",
     "faq-vendedores"
   ]
