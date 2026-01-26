@@ -57,7 +57,7 @@
         "4300adc0-a530-4961-bb5a-0ef06c6e64fb"
       ],
       "custom_css": [
-        "shopify-section-footer > div {max-width: none;}"
+        "shopify-section-footer > div {max-width: none; }"
       ],
       "settings": {
         "width": "boxed",
