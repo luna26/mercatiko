@@ -36,6 +36,12 @@
             "layout_mobile": "title-top"
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": false
+          }
+        },
         "short_description": {
           "type": "short_description",
           "settings": {
@@ -60,12 +66,6 @@
         "essential_estimated_app_block_NVhFg9": {
           "type": "shopify://apps/essential-estimated/blocks/app-block/02a895dd-b5b5-4103-8966-c6914aa8309e",
           "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_tax": true
-          }
         },
         "buy_button": {
           "type": "buy_button",
@@ -185,11 +185,11 @@
       },
       "block_order": [
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "price",
         "short_description",
         "variant_selection",
         "inventory",
         "essential_estimated_app_block_NVhFg9",
-        "price",
         "buy_button",
         "beafbaf1-a0af-4326-b4de-6e78c472249c",
         "e55f9825-3e08-4f90-bd42-9d336323be89",
