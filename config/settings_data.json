@@ -114,11 +114,6 @@
         "type": "shopify://apps/essential-estimated/blocks/app-embed/02a895dd-b5b5-4103-8966-c6914aa8309e",
         "disabled": false,
         "settings": {}
-      },
-      "6366116583096307484": {
-        "type": "shopify://apps/parcelify/blocks/storefront_shipping/7638fb4b-ef12-4af8-828a-5d47b2e8a897",
-        "disabled": false,
-        "settings": {}
       }
     },
     "color_schemes": {
