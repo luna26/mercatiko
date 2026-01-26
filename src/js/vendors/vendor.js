@@ -6,7 +6,7 @@
     vendors.reverse().forEach(vendor => {
       const { id, title, status, logo_link, brand_name, short_description } = vendor
 
-      if (!status) return
+      if (!status || !window.SHOP_VENDORS.includes(brand_name)) return
 
       if (!container.classList.contains('vendors-loaded')) container.classList.add('vendors-loaded')
 
