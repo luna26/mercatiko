@@ -55,7 +55,6 @@
         },
         "inventory": {
           "type": "inventory",
-          "disabled": true,
           "settings": {}
         },
         "price": {
@@ -97,7 +96,6 @@
         },
         "shipping_timer": {
           "type": "shipping_timer",
-          "disabled": true,
           "settings": {}
         },
         "usp_1": {
@@ -199,7 +197,7 @@
       ],
       "custom_css": [
         ".shopify-payment-button__button {display: none;}",
-        " .l4al-trustbadge {display: none}"
+        ".l4al-trustbadge {display: none;}"
       ],
       "settings": {
         "width": "boxed",
