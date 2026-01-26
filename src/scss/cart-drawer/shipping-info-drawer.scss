@@ -1,3 +1,20 @@
+#shopify-section-footer>div {
+  max-width: none;
+  width: fit-content;
+
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+  }
+
+  a[href="#"] {
+    &:hover {
+      text-decoration: none !important;
+      cursor: default;
+    }
+  }
+}
+
 #cart {
   form[action="/cart"] {
     a[href="/cart"] {
