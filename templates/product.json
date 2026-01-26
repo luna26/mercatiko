@@ -78,6 +78,10 @@
             "show_gift_card_recipient": false
           }
         },
+        "essential_estimated_app_block_NVhFg9": {
+          "type": "shopify://apps/essential-estimated/blocks/app-block/02a895dd-b5b5-4103-8966-c6914aa8309e",
+          "settings": {}
+        },
         "beafbaf1-a0af-4326-b4de-6e78c472249c": {
           "type": "spacer",
           "settings": {
@@ -186,6 +190,7 @@
         "inventory",
         "price",
         "buy_button",
+        "essential_estimated_app_block_NVhFg9",
         "beafbaf1-a0af-4326-b4de-6e78c472249c",
         "e55f9825-3e08-4f90-bd42-9d336323be89",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
