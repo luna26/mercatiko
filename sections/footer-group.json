@@ -61,10 +61,10 @@
       ],
       "settings": {
         "width": "boxed",
-        "footer_color": "white",
+        "footer_color": "scheme-2",
         "title_font": "primary",
         "title_size_blocks": "h5",
-        "bottom_color": "scheme-6",
+        "bottom_color": "scheme-2",
         "bottom_img_width": 50,
         "bottom_img_link": "",
         "enable_country_selector": false,
