@@ -28,6 +28,7 @@
       "block_order": [
         "title"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -36,10 +37,57 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_rich_text_dyDrNL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_KFd3aX": {
+          "type": "title",
+          "settings": {
+            "title": "<h1>¡Gracias por registrarte como vendedor en nuestra plataforma!</h1>",
+            "title_underline_style": "none"
+          }
+        },
+        "content_yFPfHT": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Apreciamos tu interés en formar parte de nuestro Mercatiko y estamos emocionados de conocerte y revisar tu propuesta. Tu registro es un paso importante para comenzar a vender y llegar a nuevos clientes.<br/><br/>Nuestro equipo cuenta con un plazo máximo de <strong>48 horas hábiles</strong> para revisarla y brindarte una respuesta.<br/>Te notificaremos por correo electrónico una vez que la evaluación esté completa. Agradecemos tu paciencia y comprensión durante este proceso.<br/><br/></p>"
+          }
+        },
+        "button_fUzLna": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "Button",
+            "link_url": "/",
+            "button_style": "secondary plain"
+          }
+        }
+      },
+      "block_order": [
+        "title_KFd3aX",
+        "content_yFPfHT",
+        "button_fUzLna"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "section_rich_text_dyDrNL"
   ]
 }
