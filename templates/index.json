@@ -15,9 +15,9 @@
         "image_UwVfdj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/abrigo4.jpg",
-            "overlay_opacity": 25,
-            "color_palette": "scheme-2",
+            "image": "shopify://shop_images/Untitled_design.png",
+            "overlay_opacity": 5,
+            "color_palette": "scheme-4",
             "text_position": "text-start",
             "cols": 1,
             "rows": 1,
@@ -42,6 +42,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/197F9531-D51B-4F1C-8EAB-5CD9218C6352.webp",
+            "video": "shopify://files/videos/Default video.mp4",
             "overlay_opacity": 25,
             "color_palette": "scheme-2",
             "text_position": "align-bottom text-start",
