@@ -1,8 +1,3 @@
-<script src="{{ 'vendor-store.js' | asset_url }}" defer></script>
-{{ 'vendor-stores.css' | asset_url | stylesheet_tag }}
-<script>
-  window.SHOP_VENDORS = {{ shop.vendors | json }};
-</script>
 {%- liquid
   assign collections_menu = empty
   assign quick_links = empty

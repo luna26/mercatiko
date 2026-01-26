@@ -65,6 +65,7 @@
     {%- if settings.enable_accessibility_default %}
       <link media="screen" rel="stylesheet" href="{{ 'theme-accessible.css' | asset_url }}" id="accessible-mode-css">
     {%- endif %}
+    {{ 'vendor-stores.css' | asset_url | stylesheet_tag }}
     {%- if settings.favicon -%}
       {%- assign favicon_url = settings.favicon | image_url: width: 32, height: 32 -%}
       {%- assign favicon_no_query = favicon_url | split: '?' | first -%}
@@ -254,10 +255,14 @@
     {%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
     {{ settings.custom_script_for_body }}
     <script src="{{ 'cart-drawer-shipping.js' | asset_url }}" defer></script>
+    <script src="{{ 'vendor-store.js' | asset_url }}" defer></script>
     <script>
       if (window.location.pathname === '/cart') {
         window.location.href = '/?open_cart=true';
       }
+    </script>
+    <script>
+      window.SHOP_VENDORS = {{ shop.vendors | json }};
     </script>
   </body>
 </html>
