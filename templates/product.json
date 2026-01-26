@@ -96,6 +96,7 @@
         },
         "shipping_timer": {
           "type": "shipping_timer",
+          "disabled": true,
           "settings": {}
         },
         "usp_1": {
