@@ -327,7 +327,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>15% + USD $0.40 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
+            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>11.55% + USD $0.35 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
           }
         },
         "content_FjDfyh": {
@@ -364,7 +364,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p><strong>Costos por transacción</strong><br/>+ 2% en plataforma de e-commerce<br/>+ 4.9% + $0.40 pasarela de pagos<br/>+ 8.1% comisión Marketico (IVA incluido)</p><p><strong>¿Cómo deberíamos repartir internamente ese 8.1% de comisión?<br/></strong>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
+            "text": "<p><strong>Costos por transacción</strong><br/>+ 1% en plataforma de e-commerce<br/>+ 4.9% + $0.35 pasarela de pagos<br/>+ 5.65% comisión Marketico <strong>(IVA incluido)</strong></p><p><strong>¿Cómo repartimos internamente ese 5% de comisión?<br/></strong>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
           }
         }
       },
