@@ -616,7 +616,7 @@
         "title": "<h2>Visto recientemente</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": false,
-        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_mobile": false,
         "enable_quick_buy_drawer": false,
         "enable_quick_buy_qty_selector": true,
         "enable_color_picker": false,
