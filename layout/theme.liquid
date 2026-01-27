@@ -8,6 +8,7 @@
 >
   <head>
     {{ 'shipping-info-drawer.css' | asset_url | stylesheet_tag }}
+    {{ 'general.css' | asset_url | stylesheet_tag }}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
@@ -197,8 +198,6 @@
     <script>
       const path = window.location.pathname;
       const match = path.match(/^\/tienda\/([^/]+)$/);
-
-      console.log('match', match);
 
       if (match) {
         const slug = match[1];
