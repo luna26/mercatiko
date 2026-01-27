@@ -334,7 +334,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>En <strong>Marketico creemos en la transparencia. </strong>Por eso hemos decidido compartir cómo se reparte el 11.55% de comisión. De esta manera esperamos que los vendedores tomen conciencia de que nuestro objetivo es ayudarlos y hacer que todos crezcamos juntos.</p>"
+            "text": "<p>En <strong>Marketico creemos en la transparencia. </strong>Por eso hemos decidido compartir cómo se reparte el <strong>11.55%</strong> de comisión. De esta manera esperamos que los vendedores tomen conciencia de que nuestro objetivo es ayudarlos y hacer que todos crezcamos juntos.</p>"
           }
         }
       },
@@ -364,7 +364,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p><strong>Costos por transacción</strong><br/>+ 1% en plataforma de e-commerce<br/>+ 4.9% + $0.35 pasarela de pagos<br/>+ 5.65% comisión Marketico <strong>(IVA incluido)</strong></p><p><strong>¿Cómo repartimos internamente ese 5% de comisión?<br/></strong>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
+            "text": "<p><strong>Costos por transacción</strong><br/><strong>+ 1% </strong>en plataforma de e-commerce<br/><strong>+ 4.9%</strong> + <strong>$0.35</strong> pasarela de pagos<br/><strong>+ 5.65%</strong> comisión Marketico <strong>(IVA incluido)</strong></p><p><strong>¿Cómo repartimos internamente ese 5% de comisión?<br/></strong>✓ Plataforma de e-commerce<br/>✓ Plataforma para la gestión de vendedores<br/>✓ Soporte y atención<br/>✓ Servidores y mantenimiento<br/>✓ Dominio</p>"
           }
         }
       },
