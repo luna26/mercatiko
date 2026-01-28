@@ -53,7 +53,7 @@
             "text": "",
             "show_link": true,
             "link_text": "Explorar",
-            "link_url": "shopify://collections/lenceria",
+            "link_url": "/search?q=lenceria",
             "button_style": "primary link",
             "show_overlay_link": true,
             "overlay_url": "",
