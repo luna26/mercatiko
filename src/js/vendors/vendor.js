@@ -128,7 +128,7 @@
   }
 
   function goToVendor(handle) {
-    window.location.href = `/collections/vendors?q=${handle}`
+    window.location.href = `/collections/vendors?q=${handle}&sort_by=best-selling`
   }
 
   function init() {

@@ -20,11 +20,11 @@ import vendorHeaderTpl from '../../templates/vendor-header.html?raw'
 
   function vendorHeader() {
     const { vendor_details } = vendorData
-    const { brand_name, short_description, frontend_logo_link } = vendor_details
+    const { brand_name, vendor_category, frontend_logo_link } = vendor_details
 
     const tpl = vendorHeaderTpl
       .replaceAll('{VENDOR}', brand_name)
-      .replaceAll('{DESC}', short_description ? short_description : '')
+      .replaceAll('{DESC}', vendor_category ? vendor_category : '')
       .replaceAll('{LOGO}', frontend_logo_link)
 
     document.querySelector('#content').insertAdjacentHTML('afterbegin', tpl)
