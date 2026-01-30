@@ -16,15 +16,14 @@
       "blocks": {
         "ee8cf9cf-0a8b-4986-b76c-1016a9510c5b": {
           "type": "customer_support",
-          "disabled": true,
           "settings": {
             "title": "Soporte al cliente",
             "title_underline_style": "none",
             "customer_support_img_width": 220,
             "customer_support_offset_right": 25,
             "customer_support_offset_bottom": 0,
-            "extra_customer_support": "<p>Disponible de 8AM to 8PM via WhatsApp</p>",
-            "show_phone_link": true,
+            "extra_customer_support": "<p>info@mercatiko.store</p>",
+            "show_phone_link": false,
             "show_mail_link": false,
             "show_whatsapp_link": true,
             "customer_support_offset_right_mobile": 0,
@@ -57,7 +56,7 @@
         "4300adc0-a530-4961-bb5a-0ef06c6e64fb"
       ],
       "custom_css": [
-        "shopify-section-footer > div {max-width: none; }"
+        "shopify-section-footer > div {max-width: none;}"
       ],
       "settings": {
         "width": "boxed",
