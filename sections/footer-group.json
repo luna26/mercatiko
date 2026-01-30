@@ -22,7 +22,7 @@
             "customer_support_img_width": 220,
             "customer_support_offset_right": 25,
             "customer_support_offset_bottom": 0,
-            "extra_customer_support": "<p>info@mercatiko.store<br/><br/><strong>¿Tiene algún reclamo sobre un pedido?</strong><br/>Por favor, abra un tiquete de soporte en el siguiente enlace: <a href=\"https://mercatiko.supportsystem.com/open.php\" target=\"_blank\" title=\"https://mercatiko.supportsystem.com/open.php\">Abrir un reclamo</a></p>",
+            "extra_customer_support": "<p>info@mercatiko.store<br/><br/><strong>¿Tiene algún reclamo sobre un pedido?</strong><br/>Por favor, abra un tiquete de soporte en el siguiente enlace: <br/><strong><br/></strong><a href=\"https://mercatiko.supportsystem.com/open.php\" target=\"_blank\" title=\"https://mercatiko.supportsystem.com/open.php\"><strong>Abrir un reclamo</strong></a></p>",
             "show_phone_link": false,
             "show_mail_link": false,
             "show_whatsapp_link": true,
