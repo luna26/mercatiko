@@ -41,7 +41,7 @@
     "section_custom_html_irwzXE": {
       "type": "section-custom-html",
       "custom_css": [
-        ".video-plyr-by-bplugins {}"
+        ".video-plyr-by-bplugins {max-width: 600px !important;}"
       ],
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
