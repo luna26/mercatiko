@@ -45,7 +45,7 @@
       ],
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
-        "custom_html": "<div class=\"video-plyr-by-bplugins\" data-id=\"697d103a873aedc7c87dc2a7\"></div>",
+        "custom_html": "<div class=\"video-plyr-by-bplugins\" data-id=\"697d103a873aedc7c87dc2a7\" style=\"max-width:600px; width:100%; margin:0 auto;\"></div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
