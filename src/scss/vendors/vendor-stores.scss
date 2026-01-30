@@ -5,6 +5,14 @@
     display: none !important;
   }
 
+  .link-btn.desktop-hide {
+    a[href="#filter"] {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   @media (max-width: 1023px) {
 
     form[action="./"] {
