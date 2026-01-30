@@ -146,7 +146,7 @@
         "width_banner": "boxed",
         "width": "wide",
         "spacing_desktop": 0,
-        "spacing_mobile": 30,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
@@ -163,6 +163,48 @@
         "spacing_mobile": 0,
         "fix_zindex": 0
       }
+    },
+    "section_rich_text_BjAfDU": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_xpyUHa": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Cómo gestionar pedidos</h2>",
+            "title_underline_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "title_xpyUHa"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_html_A4BmaK": {
+      "type": "section-custom-html",
+      "custom_css": [
+        ".video-plyr-by-bplugins {max-width: 600px !important; margin: 0 auto;}",
+        ".video-plyr-by-bplugins button {float: none; width: auto !important; margin: 0 !important; min-width: auto !important; min-height: auto !important;}"
+      ],
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<div class=\"video-plyr-by-bplugins\" style=\"max-width:600px; width:100%;\" data-id=\"697d15ce873aedc7c87dc2ab\"></div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -173,6 +215,8 @@
     "section_rich_text_jeGMxP",
     "section_custom_html_h8m3UT",
     "section_rich_text_bkGjrR",
-    "section_custom_html_eifrMx"
+    "section_custom_html_eifrMx",
+    "section_rich_text_BjAfDU",
+    "section_custom_html_A4BmaK"
   ]
 }
