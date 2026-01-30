@@ -119,6 +119,11 @@
         "type": "shopify://apps/essential-estimated/blocks/app-embed/02a895dd-b5b5-4103-8966-c6914aa8309e",
         "disabled": false,
         "settings": {}
+      },
+      "5416739677135962088": {
+        "type": "shopify://apps/video-player-by-bplugins/blocks/video_player_by_bplugins_script/20ac3e1a-01e7-4271-a8a3-5142829c4d4a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
