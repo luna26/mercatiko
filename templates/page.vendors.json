@@ -327,7 +327,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>11.55% + USD $0.35 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
+            "text": "<p>Solo cobramos cuando vendes: una comisión del <strong>11.55% + USD $0.4 por transacción</strong>, que incluye tecnología, pagos, visibilidad y soporte para tu negocio.</p>"
           }
         },
         "content_FjDfyh": {
@@ -467,7 +467,7 @@
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>Nuestra comisión es del 11.55% + USD $0.35 por transacción.<br/><br/></p>",
+            "faq_answer": "<p>Nuestra comisión es del 11.55% + USD $0.4 por transacción.<br/><br/></p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
