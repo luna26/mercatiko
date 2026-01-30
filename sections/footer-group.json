@@ -19,7 +19,6 @@
           "settings": {
             "title": "Soporte al cliente",
             "title_underline_style": "none",
-            "customer_support_img": "shopify://shop_images/0_320_x_320_px_3_b9a5277b-2798-48c1-86cd-1a834a2c979c.png",
             "customer_support_img_width": 95,
             "customer_support_offset_right": 25,
             "customer_support_offset_bottom": 0,
