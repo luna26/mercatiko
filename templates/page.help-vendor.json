@@ -159,7 +159,7 @@
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
         "custom_html": "<div class=\"video-plyr-by-bplugins\" style=\"max-width:600px; width:100%;\" data-id=\"697d13e5873aedc7c87dc2aa\"></div>",
-        "spacing_desktop": 0,
+        "spacing_desktop": 50,
         "spacing_mobile": 0,
         "fix_zindex": 0
       }
