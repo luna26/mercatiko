@@ -40,6 +40,9 @@
     },
     "section_custom_html_irwzXE": {
       "type": "section-custom-html",
+      "custom_css": [
+        ".video-plyr-by-bplugins {}"
+      ],
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
         "custom_html": "<div class=\"video-plyr-by-bplugins\" data-id=\"697d103a873aedc7c87dc2a7\"></div>",
