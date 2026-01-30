@@ -38,11 +38,39 @@
         "fix_zindex": 0
       }
     },
+    "section_rich_text_tz3rNX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_hkmUcL": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Cambiar idioma de la cuenta</h2>",
+            "title_underline_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "title_hkmUcL"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_html_irwzXE": {
       "type": "section-custom-html",
       "custom_css": [
         ".video-plyr-by-bplugins {max-width: 600px !important;}",
-        ".video-plyr-by-bplugins button {float: none; width: auto !important; margin: 0 !important; min-width: auto !important; min-height: auto !important; }"
+        ".video-plyr-by-bplugins button {float: none; width: auto !important; margin: 0 !important; min-width: auto !important; min-height: auto !important;}"
       ],
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
@@ -51,11 +79,52 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_rich_text_jeGMxP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_HbRt7K": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Agregar información de pago de pedidos</h2>",
+            "title_underline_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "title_HbRt7K"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "color_palette": "",
+        "overlay_opacity": 100,
+        "text_alignment": "center",
+        "content_width": 1280,
+        "height": "size-s",
+        "width_banner": "boxed",
+        "width": "wide",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_html_h8m3UT": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<div class=\"video-plyr-by-bplugins\" style=\"max-width:600px; width:100%; margin:0 auto;\" data-id=\"697d103a873aedc7c87dc2a7\"></div>",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-page",
-    "section_custom_html_irwzXE"
+    "section_rich_text_tz3rNX",
+    "section_custom_html_irwzXE",
+    "section_rich_text_jeGMxP",
+    "section_custom_html_h8m3UT"
   ]
 }
