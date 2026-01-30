@@ -117,8 +117,8 @@
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
         "custom_html": "<div class=\"video-plyr-by-bplugins\" style=\"max-width:600px; width:100%; margin:0 auto;\" data-id=\"697d12f2873aedc7c87dc2a9\"></div>",
-        "spacing_desktop": 0,
-        "spacing_mobile": 0,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
         "fix_zindex": 0
       }
     },
@@ -187,8 +187,8 @@
         "height": "size-s",
         "width_banner": "boxed",
         "width": "wide",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
