@@ -89,12 +89,14 @@
       {%- endif -%}
       {%- if title_block.settings.show_vendor_brand or title_block.settings.show_vendor_name -%}
         {%- if product.vendor != "vendor-unknown" and product.vendor != shop.name -%}
-          <li>{%- if title_block.settings.show_vendor_brand %}<span class="strong">{{ 'product.vendor' | t }}</span>{%- endif -%}
+          <li class="seller-name"><span class="seller-name-for">Vendido por</span> 
+          {% comment %} {%- if title_block.settings.show_vendor_brand %}<span class="strong">{{ 'product.vendor' | t }}</span>{%- endif -%} {% endcomment %}
               {%- liquid
                 assign vendor_handle = product.vendor | handleize
-                assign vendor_collection = collections[vendor_handle]
-              -%}
-            {%- if vendor_collection != blank and title_block.settings.show_vendor_name -%}<a href="{{ vendor_collection.url }}">{{ product.vendor }}</a>{%- elsif title_block.settings.show_vendor_name -%}{{ product.vendor }}{%- endif -%}
+                -%}
+                {% comment %} assign vendor_collection = collections[vendor_handle] {% endcomment %}
+              <a href="/collections/vendors?q={{vendor_handle}}&sort_by=best-selling">{{ product.vendor }}</a>
+            {% comment %} {%- if vendor_collection != blank and title_block.settings.show_vendor_name -%}<a href="{{ vendor_collection.url }}">{{ product.vendor }}</a>{%- elsif title_block.settings.show_vendor_name -%}{{ product.vendor }}{%- endif -%} {% endcomment %}
           </li>
         {%- endif -%}
       {%- endif -%}
@@ -1827,7 +1829,7 @@
           "label": "t:main.product.blocks.upsell.settings.variant_in_popup.label",
           "info": "t:main.product.blocks.upsell.settings.variant_in_popup.info",
           "default": false
-        },        
+        },
         {
           "type": "select",
           "id": "variant_selector_color_scheme",

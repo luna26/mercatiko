@@ -7,7 +7,7 @@ import vendorHeaderTpl from '../../templates/vendor-header.html?raw'
     const params = new URLSearchParams(window.location.search);
     const handle = params.get('q');
 
-    if (window.SHOP_VENDORS && window.SHOP_VENDORS.includes(handle)) {
+    if (window.SHOP_VENDORS && window.location.pathname === '/collections/vendors' && window.SHOP_VENDORS.filter((vendor) => vendor.toLowerCase() === handle.toLowerCase())) {
       document.body.classList.add('is-store')
 
       clearSearch()

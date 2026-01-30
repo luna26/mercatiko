@@ -17,3 +17,20 @@
         }
     }
 }
+
+.seller-name-for {
+    margin-right: 3px !important;
+}
+
+.seller-name {
+    color: #48a2b4;
+    font-weight: bold;
+
+    a {
+        text-decoration: underline !important;
+
+        &:hover {
+            color: #295d67 !important;
+        }
+    }
+}
