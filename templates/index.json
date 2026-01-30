@@ -596,6 +596,7 @@
     },
     "section_collection_list_kh3DxV": {
       "type": "section-collection-list",
+      "disabled": true,
       "name": "t:sections.collection_list.presets.name",
       "settings": {
         "collections": [
@@ -627,15 +628,17 @@
         "165486547011270c54-0": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/elemar_logo.jpg",
             "image_svg": "",
-            "link": ""
+            "link": "/collections/vendors?q=Elemar&sort_by=best-selling"
           }
         },
         "165486547011270c54-1": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/okstyle_d32af452-acf4-4a1e-aace-fedc5a56b984.jpg",
             "image_svg": "",
-            "link": "/"
+            "link": "/collections/vendors?q=okstyle_cr&sort_by=best-selling"
           }
         },
         "165486547011270c54-2": {
@@ -675,7 +678,6 @@
         "165486547011270c54-4",
         "165486547011270c54-5"
       ],
-      "disabled": true,
       "settings": {
         "number_of_items": 6,
         "text_alignment": "start",
