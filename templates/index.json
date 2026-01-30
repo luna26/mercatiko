@@ -641,14 +641,14 @@
             "link": "/collections/vendors?q=okstyle_cr&sort_by=best-selling"
           }
         },
-        "165486547011270c54-2": {
+        "165486547011270c54-3": {
           "type": "logo",
           "settings": {
             "image_svg": "",
             "link": ""
           }
         },
-        "165486547011270c54-3": {
+        "logo_kUPaQW": {
           "type": "logo",
           "settings": {
             "image_svg": "",
@@ -662,8 +662,16 @@
             "link": ""
           }
         },
+        "logo_FEQXfD": {
+          "type": "logo",
+          "settings": {
+            "image_svg": "",
+            "link": ""
+          }
+        },
         "165486547011270c54-5": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "image_svg": "",
             "link": ""
@@ -673,9 +681,10 @@
       "block_order": [
         "165486547011270c54-0",
         "165486547011270c54-1",
-        "165486547011270c54-2",
         "165486547011270c54-3",
+        "logo_kUPaQW",
         "165486547011270c54-4",
+        "logo_FEQXfD",
         "165486547011270c54-5"
       ],
       "settings": {
