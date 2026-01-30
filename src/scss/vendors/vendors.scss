@@ -4,7 +4,7 @@
 
 .link-btn.desktop-hide {
   a[href="#filter"] {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
   }
