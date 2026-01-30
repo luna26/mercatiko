@@ -69,7 +69,7 @@
         "height": "size-s",
         "width_banner": "boxed",
         "width": "wide",
-        "spacing_desktop": 50,
+        "spacing_desktop": 0,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
