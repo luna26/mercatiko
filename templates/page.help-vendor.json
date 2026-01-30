@@ -28,6 +28,7 @@
       "block_order": [
         "title"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -36,10 +37,82 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_video_banner_zbHxEC": {
+      "type": "section-video-banner",
+      "blocks": {
+        "title_JmdmTG": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Video with text</h2>",
+            "title_underline_style": "none"
+          }
+        },
+        "text_yQ3RBH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with a video and tell your customers something about this product, collection, blogpost or a promotion.</p>"
+          }
+        },
+        "usp_JJUxUm": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Tell a unique detail about this video</p>"
+          }
+        },
+        "usp_Xan9LE": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Tell a unique detail about this video</p>"
+          }
+        },
+        "usp_7m6UMi": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Tell a unique detail about this video</p>"
+          }
+        },
+        "buttons_ymt33Y": {
+          "type": "buttons",
+          "settings": {
+            "show_first_link": true,
+            "first_link_text": "Button",
+            "first_link_url": "/",
+            "first_button_style": "secondary plain",
+            "show_second_link": true,
+            "second_link_text": "Button",
+            "second_link_url": "/",
+            "second_button_style": "primary plain"
+          }
+        }
+      },
+      "block_order": [
+        "title_JmdmTG",
+        "text_yQ3RBH",
+        "usp_JJUxUm",
+        "usp_Xan9LE",
+        "usp_7m6UMi",
+        "buttons_ymt33Y"
+      ],
+      "name": "t:sections.video_with_text.presets.name",
+      "settings": {
+        "overlay_opacity": 0,
+        "color_palette": "",
+        "layout": "image-left",
+        "text_position": "text-start",
+        "width": "boxed",
+        "video_url": "",
+        "video_alt_text": "",
+        "video": "shopify://files/videos/Cambiar de idioma.mp4",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "section_video_banner_zbHxEC"
   ]
 }
