@@ -54,11 +54,20 @@
             "page": "",
             "text": "<p>Aprende paso a paso cómo administrar tu tienda en línea de forma eficiente. </p>"
           }
+        },
+        "button_e6UK8c": {
+          "type": "button",
+          "settings": {
+            "link_text": "Panel de vendedores",
+            "link_url": "https://next.app.shipturtle.com/",
+            "button_style": "secondary plain"
+          }
         }
       },
       "block_order": [
         "title_fJpHaz",
-        "content_rwDTeg"
+        "content_rwDTeg",
+        "button_e6UK8c"
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -70,7 +79,7 @@
         "width_banner": "boxed",
         "width": "wide",
         "spacing_desktop": 0,
-        "spacing_mobile": 30,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
