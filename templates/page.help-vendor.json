@@ -110,6 +110,10 @@
     },
     "section_custom_html_h8m3UT": {
       "type": "section-custom-html",
+      "custom_css": [
+        ".video-plyr-by-bplugins {max-width: 600px !important;}",
+        ".video-plyr-by-bplugins button {float: none; width: auto !important; margin: 0 !important; min-width: auto !important; min-height: auto !important;}"
+      ],
       "name": "t:sections.custom_html_snippet.presets.name",
       "settings": {
         "custom_html": "<div class=\"video-plyr-by-bplugins\" style=\"max-width:600px; width:100%; margin:0 auto;\" data-id=\"697d103a873aedc7c87dc2a7\"></div>",
