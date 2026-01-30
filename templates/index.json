@@ -594,6 +594,33 @@
         "fix_zindex": 0
       }
     },
+    "section_collection_list_kh3DxV": {
+      "type": "section-collection-list",
+      "name": "t:sections.collection_list.presets.name",
+      "settings": {
+        "collections": [
+          "elemar",
+          "ok-style-cr"
+        ],
+        "image_ratio": "square",
+        "fill_images": true,
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2>Tiendas</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "Tiendas",
+        "link_url": "shopify://pages/tiendas",
+        "button_style": "primary link",
+        "collection_title_size": "h5",
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "16548654705529ee49": {
       "type": "section-logo-list",
       "blocks": {
@@ -648,6 +675,7 @@
         "165486547011270c54-4",
         "165486547011270c54-5"
       ],
+      "disabled": true,
       "settings": {
         "number_of_items": 6,
         "text_alignment": "start",
@@ -736,6 +764,7 @@
     "section_image_hotspots_qffPmj",
     "1653468546493c13a2",
     "section_slideshow_bKaRxG",
+    "section_collection_list_kh3DxV",
     "16548654705529ee49",
     "78836e0a-6131-4f01-afff-dbdd186d0914",
     "165346832322a4db6f"
