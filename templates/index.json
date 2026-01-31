@@ -262,10 +262,10 @@
         "1654865266c7ee8f93-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/anchor-bracelet-gold.jpg",
+            "image": "shopify://shop_images/Untitled_design_5.png",
             "overlay_opacity": 0,
-            "color_palette": "scheme-2",
-            "text_position": "center",
+            "color_palette": "scheme-1",
+            "text_position": "center start",
             "title": "<h1><strong>Joyería</strong></h1>",
             "title_underline_style": "none",
             "text": "",
