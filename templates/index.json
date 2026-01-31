@@ -170,12 +170,13 @@
       "type": "section-featured-products",
       "settings": {
         "products": [
-          "abrigo-lana-mujer",
-          "abrigo-deportivo",
-          "abrigo-elegante-beige",
           "abrigo-invierno-mujer",
-          "abrigo-nordico-hombre",
-          "abrigo-peluche-mujer"
+          "abrigo-peluche-mujer",
+          "212-vip-rose-elixir",
+          "body-laura",
+          "crossbody-tommy-hilfiger-azul",
+          "crossbody-tommy-hilfiger-blanco",
+          "set-eclipse"
         ],
         "layout": "slider",
         "number_of_items": 5,
