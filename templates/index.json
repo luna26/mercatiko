@@ -529,10 +529,10 @@
         "hotspot_7Wier6"
       ],
       "settings": {
-        "image": "shopify://shop_images/16_a88eda31-ab21-44d7-9a37-c8e73694a045.jpg",
+        "image": "shopify://shop_images/untitled_design_-_1.png",
         "overlay_opacity": 0,
         "color_palette": "scheme-6",
-        "hotspot_height": 24,
+        "hotspot_height": 20,
         "hotspot_color_palette": "primary",
         "layout": "right",
         "height": "1/1",
@@ -546,7 +546,7 @@
         "text": "<p>Cada artículo está hecho con cuidado, ofreciendo regalos memorables que duran toda la vida.</p>",
         "show_link": true,
         "link_text": "Comprar ahora",
-        "link_url": "/",
+        "link_url": "shopify://collections/regalos",
         "button_style": "secondary plain",
         "height_mobile": "adapt",
         "spacing_desktop": 50,
