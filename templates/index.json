@@ -300,7 +300,7 @@
             "text": "",
             "show_link": true,
             "link_text": "Descubre ahora",
-            "link_url": "/",
+            "link_url": "shopify://collections/joyeria",
             "button_style": "secondary plain",
             "show_overlay_link": true,
             "overlay_url": ""
