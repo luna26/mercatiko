@@ -256,6 +256,34 @@
         "fix_zindex": 0
       }
     },
+    "section_featured_collection_nYWnWa": {
+      "type": "section-featured-collection",
+      "name": "t:sections.featured_collection.presets.name",
+      "settings": {
+        "collection": "perfumes",
+        "layout": "slider",
+        "limit": 8,
+        "number_of_items": 6,
+        "text_alignment": "start",
+        "width": "boxed",
+        "title": "<h2>Descubrí nuestra colección de perfumes</h2>",
+        "title_underline_style": "none",
+        "text": "",
+        "show_link": true,
+        "link_text": "Ver más",
+        "button_style": "primary link",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "16548652677db3e33c": {
       "type": "section-gallery",
       "blocks": {
@@ -770,6 +798,7 @@
     "16603001534a9c90c9",
     "section_featured_collection_kYN8TM",
     "section_featured_collection_3QDKfG",
+    "section_featured_collection_nYWnWa",
     "16548652677db3e33c",
     "166030001712c7cb2b",
     "16620576959f001826",
