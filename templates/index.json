@@ -262,11 +262,11 @@
         "1654865266c7ee8f93-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hands-on-hips-girls-fashion.jpg",
-            "overlay_opacity": 20,
+            "image": "shopify://shop_images/anchor-bracelet-gold.jpg",
+            "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "center",
-            "title": "<h1>Ropa para niños</h1>",
+            "title": "<h1><strong>Joyería</strong></h1>",
             "title_underline_style": "none",
             "text": "",
             "show_link": true,
