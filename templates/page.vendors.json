@@ -59,7 +59,7 @@
           "type": "button",
           "settings": {
             "link_text": "Comienza a vender hoy",
-            "link_url": "shopify://pages/registro-vendedores",
+            "link_url": "https://txhvse-rr.garnet.center/app/login/register",
             "button_style": "secondary plain"
           }
         }
@@ -399,7 +399,7 @@
           "type": "button",
           "settings": {
             "link_text": "Regístrate ahora",
-            "link_url": "shopify://pages/registro-vendedores",
+            "link_url": "https://txhvse-rr.garnet.center/app/login/register",
             "button_style": "secondary plain"
           }
         }
@@ -546,7 +546,7 @@
             "page": "",
             "image_width": 465,
             "liquid": "",
-            "html": "<a href=\"/pages/registro-vendedores\">Registro</a>",
+            "html": "<a href=\"https://txhvse-rr.garnet.center/app/login/register\">Registro</a>",
             "show_contact_form": false
           }
         },
