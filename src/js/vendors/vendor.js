@@ -15,24 +15,23 @@
       const list = document.querySelector(`.stores-${category.replaceAll(' ', '')}`)
 
       vendorsCategory[category].forEach(vendor => {
-        const { id, title, status, logo_link, brand_name, vendor_category } = vendor
+        const { title, image, handle } = vendor
 
-        if (!status || !window.SHOP_VENDORS.includes(brand_name)) {
-          if (!window.SHOP_VENDORS.includes(title)) return
-        }
+        if (!window.SHOP_VENDORS.filter((vendor) => vendor.trim().toLowerCase() === title.trim().toLowerCase())) return
 
         if (!list.classList.contains('vendors-loaded')) list.classList.add('vendors-loaded')
 
-        list.insertAdjacentHTML('beforeend', `<li data-vendor="${id}">
-        <a data-slug="${brand_name}" class="btn-set-vendor">
-          <img src="${logo_link}"/>
+        list.insertAdjacentHTML('beforeend', `<li data-vendor="${handle}">
+        <a data-handle="${handle}" class="btn-set-vendor">
+          <img src="${image.url}"/>
           <div class="btn-set-vendor-info">
             <h3>${title}</h3>
-            ${vendor_category ? `<p>${vendor_category}</p>` : ''}
           </div>
         </a>
       </li>`)
       });
+
+      // ${vendor_category ? `<p>${vendor_category}</p>` : ''}
     }
   }
 
@@ -71,60 +70,23 @@
 
       if (anchor) {
         if (anchor.matches('a.btn-set-vendor')) {
-          const slug = anchor.getAttribute('data-slug')
+          const handle = anchor.getAttribute('data-handle')
 
-          goToVendor(slug)
+          goToVendor(handle)
         }
       }
     })
   }
 
   function getVendors() {
-    fetch(
-      "/a/dashboard/vendors-list?shop=txhvse-rr.myshopify.com&limit=100",
-      {
-        method: "GET",
-        credentials: "include", // 🔑 cookies de sesión
-        headers: {
-          "accept": "*/*",
-          "accept-language": "es,en-US;q=0.9,en;q=0.8",
-          "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-origin"
-        }
-      }
-    )
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("HTTP " + response.status);
-        }
-        return response.json();
-      })
-      .then(response => {
-        renderVendors(response.data.vendors)
-      })
-      .catch(error => {
-        console.error("Error en fetch:", error);
-      });
-  }
+    // Extract the store from the Shopify environment
+    const store = window.Shopify.shop.replace('.myshopify.com', '')
 
-  async function getProducts(slug) {
-    const response = await fetch(
-      `/a/dashboard/vendor-products/${slug}?shop=txhvse-rr.myshopify.com&sort_by=title-ascending&limit=100`,
-      {
-        method: "GET",
-        credentials: "include", // 🔑 cookies de sesión
-        headers: {
-          "accept": "*/*",
-          "accept-language": "es,en-US;q=0.9,en;q=0.8",
-          "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-origin"
-        }
-      }
-    )
-
-    const json = await response.json()
-
-    if (json) return json.data
+    // Request Garnet for the complete list of vendors
+    const endpointUrl = `https://${store}.garnet.center/api/storefront/populate/v2`
+    fetch(endpointUrl).then(r => r.json()).then((vendors) => {
+      renderVendors(vendors)
+    })
   }
 
   function goToVendor(handle) {

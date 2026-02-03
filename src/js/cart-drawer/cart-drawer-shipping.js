@@ -282,6 +282,8 @@ const crData = {
     },
 };
 
+updateOrder()
+
 
 const observer = new MutationObserver(function (mutations) {
     mutations.forEach(function (mutation) {
@@ -316,8 +318,10 @@ document.addEventListener('change', function (e) {
     setValues()
 
     //remove the error when all the options are filled
-    if ($province && $county && $district && $province.value !== '' && $county.value !== '' && $district.value !== '')
+    if ($province && $county && $district && $province.value !== '' && $county.value !== '' && $district.value !== '') {
         document.querySelectorAll('.shipping-error').forEach((error) => error.remove());
+        updateOrder()
+    }
 });
 
 document.addEventListener('click', function (e) {
@@ -417,6 +421,25 @@ function setValues() {
     if ($province) $provinceHidden.value = $province.value
     if ($county) $countyHidden.value = $county.value
     if ($district) $districtHidden.value = $district.value
+}
+
+async function updateOrder() {
+
+    const province = window.sessionStorage.getItem('elemar-provincia');
+    const county = window.sessionStorage.getItem('elemar-canton');
+    const district = window.sessionStorage.getItem('elemar-distrito');
+
+    if (province && county && district) {
+        await fetch('/cart/update.js', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                note: `Provincia, Cantón, Distrito: ${province}, ${county}, ${district}`
+            })
+        })
+    }
 }
 
 function fillInfo(hide = false) {

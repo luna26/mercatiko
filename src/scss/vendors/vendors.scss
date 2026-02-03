@@ -6,37 +6,35 @@
   ul {
     display: flex;
     gap: 16px;
-    flex-direction: column;
     list-style: none;
     padding: 0;
 
-    @media (min-width: 660px) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
 
     @media (min-width: 760px) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr) !important;
-      gap: 16px;
-    }
-
-    @media (min-width: 1200px) {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr) !important;
-      gap: 16px;
-    }
-
-    @media (min-width: 1660px) {
       display: grid;
       grid-template-columns: repeat(4, 1fr) !important;
       gap: 16px;
     }
 
+    @media (min-width: 1200px) {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr) !important;
+      gap: 16px;
+    }
+
+    @media (min-width: 1660px) {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr) !important;
+      gap: 16px;
+    }
+
     @media (min-width: 1920px) {
       display: grid;
-      grid-template-columns: repeat(5, 1fr) !important;
+      grid-template-columns: repeat(7, 1fr) !important;
       gap: 16px;
     }
 
@@ -45,43 +43,39 @@
       border-radius: 4px;
       padding: 0;
 
-      height: 150px;
-      min-height: 150px;
-      max-height: 150px;
-
       .btn-set-vendor {
         p {
           margin: 0;
           text-decoration: none !important;
           font-size: 12px;
           color: gray;
+          text-align: center;
+          margin-bottom: 10px;
         }
       }
 
       a {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: 100%;
         gap: 24px;
-        flex-direction: row;
-        align-items: center;
         text-decoration: none !important;
-        justify-content: center;
-        padding: 15px;
-
-        @media (min-width: 660px) {
-          padding: 45px;
-        }
+        padding: 20px 10px;
 
         h3 {
           margin: 0;
+          text-align: center;
         }
       }
 
 
       img {
         border-radius: 100%;
-        width: 120px;
-        height: 120px !important;
+        max-width: 120px !important;
+        max-height: 120px !important;
+        width: 100%;
       }
 
       &:hover {

@@ -1,12 +1,11 @@
-(()=>{function i(t){const n=document.querySelector(".vendors-container"),r=l(t);for(const e in r){console.log("Categoría:",e),n.insertAdjacentHTML("beforeend",`<div>
+(()=>{function i(r){const o=document.querySelector(".vendors-container"),n=a(r);for(const e in n){console.log("Categoría:",e),o.insertAdjacentHTML("beforeend",`<div>
           <h1>${e}</h1>
           <ul class="stores-${e.replaceAll(" ","")}"></ul>
-        </div>`);const o=document.querySelector(`.stores-${e.replaceAll(" ","")}`);r[e].forEach(s=>{const{id:v,title:c,status:m,logo_link:p,brand_name:d,vendor_category:a}=s;(!m||!window.SHOP_VENDORS.includes(d))&&!window.SHOP_VENDORS.includes(c)||(o.classList.contains("vendors-loaded")||o.classList.add("vendors-loaded"),o.insertAdjacentHTML("beforeend",`<li data-vendor="${v}">
-        <a data-slug="${d}" class="btn-set-vendor">
-          <img src="${p}"/>
+        </div>`);const t=document.querySelector(`.stores-${e.replaceAll(" ","")}`);n[e].forEach(s=>{const{title:d,image:p,handle:c}=s;window.SHOP_VENDORS.filter(g=>g.trim().toLowerCase()===d.trim().toLowerCase())&&(t.classList.contains("vendors-loaded")||t.classList.add("vendors-loaded"),t.insertAdjacentHTML("beforeend",`<li data-vendor="${c}">
+        <a data-handle="${c}" class="btn-set-vendor">
+          <img src="${p.url}"/>
           <div class="btn-set-vendor-info">
-            <h3>${c}</h3>
-            ${a?`<p>${a}</p>`:""}
+            <h3>${d}</h3>
           </div>
         </a>
-      </li>`))})}}function l(t){const n=t.reduce((e,o)=>{const s=o.vendor_category||"Otros";return e[s]||(e[s]=[]),e[s].push(o),e},{});return Object.keys(n).forEach(e=>{n[e].sort((o,s)=>o.title.localeCompare(s.title))}),Object.keys(n).sort((e,o)=>e==="Otros"?1:o==="Otros"?-1:e.localeCompare(o)).reduce((e,o)=>(e[o]=n[o],e),{})}function u(t){document.addEventListener("click",n=>{const e=n.target.closest("a");if(e&&e.matches("a.btn-set-vendor")){const o=e.getAttribute("data-slug");h(o)}})}function f(){fetch("/a/dashboard/vendors-list?shop=txhvse-rr.myshopify.com&limit=100",{method:"GET",credentials:"include",headers:{accept:"*/*","accept-language":"es,en-US;q=0.9,en;q=0.8","sec-fetch-mode":"cors","sec-fetch-site":"same-origin"}}).then(t=>{if(!t.ok)throw new Error("HTTP "+t.status);return t.json()}).then(t=>{i(t.data.vendors)}).catch(t=>{console.error("Error en fetch:",t)})}async function y(t){const r=await(await fetch(`/a/dashboard/vendor-products/${t}?shop=txhvse-rr.myshopify.com&sort_by=title-ascending&limit=100`,{method:"GET",credentials:"include",headers:{accept:"*/*","accept-language":"es,en-US;q=0.9,en;q=0.8","sec-fetch-mode":"cors","sec-fetch-site":"same-origin"}})).json();if(r)return r.data}function h(t){window.location.href=`/collections/vendors?q=${t}&sort_by=best-selling`}function g(){u(),f()}g()})();
+      </li>`))})}}function a(r){const o=r.reduce((e,t)=>{const s=t.vendor_category||"Otros";return e[s]||(e[s]=[]),e[s].push(t),e},{});return Object.keys(o).forEach(e=>{o[e].sort((t,s)=>t.title.localeCompare(s.title))}),Object.keys(o).sort((e,t)=>e==="Otros"?1:t==="Otros"?-1:e.localeCompare(t)).reduce((e,t)=>(e[t]=o[t],e),{})}function l(r){document.addEventListener("click",o=>{const e=o.target.closest("a");if(e&&e.matches("a.btn-set-vendor")){const t=e.getAttribute("data-handle");f(t)}})}function u(){const o=`https://${window.Shopify.shop.replace(".myshopify.com","")}.garnet.center/api/storefront/populate/v2`;fetch(o).then(n=>n.json()).then(n=>{i(n)})}function f(r){window.location.href=`/collections/vendors?q=${r}&sort_by=best-selling`}function h(){l(),u()}h()})();
