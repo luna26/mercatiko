@@ -83,7 +83,7 @@
     const store = window.Shopify.shop.replace('.myshopify.com', '')
 
     // Request Garnet for the complete list of vendors
-    const endpointUrl = `https://${store}.garnet.center/api/storefront/populate/v2`
+    const endpointUrl = `https://www.vendors.mercatiko.store/api/storefront/populate/v2`
     fetch(endpointUrl).then(r => r.json()).then((vendors) => {
       renderVendors(vendors)
     })
