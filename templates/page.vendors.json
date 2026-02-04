@@ -59,7 +59,7 @@
           "type": "button",
           "settings": {
             "link_text": "Comienza a vender hoy",
-            "link_url": "https://txhvse-rr.garnet.center/app/login/register",
+            "link_url": "https://www.vendors.mercatiko.store/app/products",
             "button_style": "secondary plain"
           }
         }
@@ -399,7 +399,7 @@
           "type": "button",
           "settings": {
             "link_text": "Regístrate ahora",
-            "link_url": "https://txhvse-rr.garnet.center/app/login/register",
+            "link_url": "https://www.vendors.mercatiko.store/app/products",
             "button_style": "secondary plain"
           }
         }
