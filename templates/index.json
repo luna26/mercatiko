@@ -12,22 +12,22 @@
     "section_grid_yyCXme": {
       "type": "section-grid",
       "blocks": {
-        "image_UwVfdj": {
+        "image_Mc883t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png",
+            "image": "shopify://shop_images/fashionable-black-and-white-sneakers.jpg",
             "overlay_opacity": 0,
-            "color_palette": "scheme-3",
-            "text_position": "align-bottom text-start",
+            "color_palette": "scheme-1",
+            "text_position": "align-top text-start",
             "cols": 1,
             "rows": 1,
-            "title": "<h3>Belleza</h3>",
-            "title_underline_style": "none",
+            "title": "<h3>Lo último en calzado.</h3>",
+            "title_underline_style": "secondary_font",
             "text": "",
             "show_link": true,
-            "link_text": "Explorar",
-            "link_url": "/",
-            "button_style": "secondary link",
+            "link_text": "Comprar",
+            "link_url": "shopify://collections/calzado",
+            "button_style": "primary link",
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": false,
@@ -91,22 +91,22 @@
             "look_label_text": "Shop the look"
           }
         },
-        "image_Mc883t": {
+        "image_UwVfdj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fashionable-black-and-white-sneakers.jpg",
+            "image": "shopify://shop_images/Untitled_design_1.png",
             "overlay_opacity": 0,
-            "color_palette": "scheme-1",
-            "text_position": "align-top text-start",
+            "color_palette": "scheme-3",
+            "text_position": "align-bottom text-start",
             "cols": 1,
             "rows": 1,
-            "title": "<h3>Lo último en calzado.</h3>",
-            "title_underline_style": "secondary_font",
+            "title": "<h3>Belleza</h3>",
+            "title_underline_style": "none",
             "text": "",
             "show_link": true,
-            "link_text": "Comprar",
-            "link_url": "shopify://collections/regalos",
-            "button_style": "primary link",
+            "link_text": "Explorar",
+            "link_url": "/",
+            "button_style": "secondary link",
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": false,
@@ -119,10 +119,10 @@
         }
       },
       "block_order": [
-        "image_UwVfdj",
+        "image_Mc883t",
         "image_wQVVFN",
         "image_zrQRwD",
-        "image_Mc883t"
+        "image_UwVfdj"
       ],
       "settings": {
         "number_of_columns": "4",
@@ -131,7 +131,7 @@
         "space_between": 16,
         "image_zoom": true,
         "image_move": false,
-        "layout_mobile": "compact",
+        "layout_mobile": "rows",
         "mobile_height": "size-s",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
