@@ -94,13 +94,13 @@
         "image_Mc883t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_2.png",
+            "image": "shopify://shop_images/fashionable-black-and-white-sneakers.jpg",
             "overlay_opacity": 0,
             "color_palette": "scheme-1",
-            "text_position": "align-top text-end",
+            "text_position": "align-top text-start",
             "cols": 1,
             "rows": 1,
-            "title": "<h3>Regalos <br/>Únicos</h3>",
+            "title": "<h3>Lo último en calzado.</h3>",
             "title_underline_style": "secondary_font",
             "text": "",
             "show_link": true,
@@ -114,8 +114,7 @@
             "look_btn_style": "buy_button plain",
             "look_position": "end",
             "show_look_label": false,
-            "look_label_text": "Label",
-            "image_mobile": "shopify://shop_images/Untitled_design_2.png"
+            "look_label_text": "Label"
           }
         }
       },
