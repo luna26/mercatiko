@@ -21,7 +21,7 @@
             "text_position": "align-top text-start",
             "cols": 1,
             "rows": 1,
-            "title": "<h3>Lo último en calzado.</h3>",
+            "title": "<h3>Lo último en calzado</h3>",
             "title_underline_style": "secondary_font",
             "text": "",
             "show_link": true,
