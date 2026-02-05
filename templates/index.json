@@ -261,7 +261,7 @@
       "type": "section-featured-collection",
       "name": "t:sections.featured_collection.presets.name",
       "settings": {
-        "collection": "stage4",
+        "collection": "perfumes",
         "layout": "slider",
         "limit": 8,
         "number_of_items": 6,
