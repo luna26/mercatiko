@@ -105,7 +105,7 @@
             "text": "",
             "show_link": true,
             "link_text": "Explorar",
-            "link_url": "/",
+            "link_url": "shopify://collections/perfumes",
             "button_style": "secondary link",
             "show_overlay_link": true,
             "overlay_url": "",
