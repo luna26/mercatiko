@@ -552,13 +552,12 @@
         },
         "text_LXXFdn": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "¿Dónde veo mis pedidos?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content</p>",
+            "faq_answer": "<p><br/>Cuando un cliente realiza una compra a través de la tienda en línea, se genera automáticamente un pedido en tu panel principal. Allí podrás ver información como el producto comprado, los datos del cliente y la información de envío, para que puedas generar la guía con Correos de Costa Rica.<br/><br/></p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
