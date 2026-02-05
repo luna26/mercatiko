@@ -397,6 +397,7 @@
     },
     "166030001712c7cb2b": {
       "type": "section-featured-products",
+      "disabled": true,
       "settings": {
         "products": [
           "abrigo-casual-gris",
