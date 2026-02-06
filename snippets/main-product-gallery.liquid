@@ -21,7 +21,7 @@
     const container = document.querySelector('#main-product');
     if (!container) return;
 
-    container.querySelectorAll('p').forEach(p => {
+    container.querySelectorAll('p, li').forEach(p => {
       p.innerHTML = p.innerHTML
         .replace(/&nbsp;/g, ' ')
         .replace(/\s+/g, ' ')
