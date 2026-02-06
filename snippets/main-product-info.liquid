@@ -68,7 +68,7 @@
             endif
           -%}
           {%- if short_description != empty and short_description != null -%}
-            <p class="m15 mobile-hide" {{ block.shopify_attributes }}>
+            <p class="m15 mobile-hide product-desc" {{ block.shopify_attributes }}>
               {{ short_description }}
               {%- if block.settings.show_read_more -%}
                 <a href="#section-info" class="strong">{{ 'general.read_more.read_more' | t }}</a>

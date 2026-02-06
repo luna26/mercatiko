@@ -15,6 +15,32 @@
   assign sizes = '(min-width: 1000px) ' | append: main_width | append: 'px, 100vw'
 %}
 
+<script>
+  //fix bc the product desc comes with &nbsp and the line can not break
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('#main-product');
+    if (!container) return;
+
+    container.querySelectorAll('p').forEach(p => {
+      p.innerHTML = p.innerHTML
+        .replace(/&nbsp;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    });
+
+    //cut the desc of the product
+    const p = document.querySelector('.product-desc');
+    const maxChars = 250; // ajusta a tu necesidad
+    const text = p.textContent.trim();
+    const link = p.querySelector('a');
+    if (text.length > maxChars) {
+      const truncated = text.slice(0, maxChars) + '... ';
+      p.innerHTML = truncated;
+      p.appendChild(link);
+    }
+  });
+</script>
+
 <ul
   class="
     l4pr
