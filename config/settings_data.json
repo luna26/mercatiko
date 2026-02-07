@@ -336,6 +336,27 @@
           "accent": "#f0702c",
           "accent_gradient": "linear-gradient(320deg, rgba(232, 74, 147, 1) 4%, rgba(239, 179, 76, 1) 100%)"
         }
+      },
+      "scheme-686744c5-9ac6-4017-9ce4-0c32795d2eda": {
+        "settings": {
+          "primary_bg": "#af1212",
+          "primary_bg_gradient": "",
+          "secondary_bg": "#f4f4f4",
+          "title_color": "#ffffff",
+          "title_color_gradient": "",
+          "primary_fg": "#ffffff",
+          "primary_button_bg": "#ffffff",
+          "primary_button_fg": "#ffffff",
+          "secondary_button_bg": "#fbea61",
+          "secondary_button_fg": "#000000",
+          "tertiary_button_bg": "#378cde",
+          "tertiary_button_fg": "#ffffff",
+          "input_bg": "#ffffff",
+          "input_fg": "#0b1613",
+          "primary_bd": "#ecedec",
+          "accent": "#af1212",
+          "accent_gradient": "linear-gradient(320deg, rgba(232, 74, 147, 1) 4%, rgba(239, 179, 76, 1) 100%)"
+        }
       }
     }
   },
