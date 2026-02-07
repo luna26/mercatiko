@@ -138,6 +138,37 @@
         "fix_zindex": 0
       }
     },
+    "section_countdown_WqyM44": {
+      "type": "section-countdown",
+      "name": "t:sections.countdown.presets.name",
+      "settings": {
+        "overlay_opacity": 0,
+        "height": "xs",
+        "width_banner": "boxed",
+        "width": "boxed",
+        "countdown_bg_color": "#ffffff",
+        "countdown_text_color": "#d23636",
+        "color_palette": "scheme-8",
+        "text_position": "start",
+        "title": "<h2>¡Día de los Enamorados!</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "Button",
+        "link_url": "/",
+        "button_style": "primary link",
+        "show_overlay_link": true,
+        "overlay_url": "",
+        "countdown_start": "",
+        "countdown_end": "February 14th, 11:59:59",
+        "hide_banner_after_countdown": true,
+        "ended_title": "<h2>¡Día de los Enamorados!</h2>",
+        "ended_title_underline_style": "none",
+        "ended_text": "<p>Tell something about your offers, sale or discounts when the timer has ended.</p>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "1653391228084c834a": {
       "type": "section-collection-list",
       "disabled": true,
@@ -823,6 +854,7 @@
   },
   "order": [
     "section_grid_yyCXme",
+    "section_countdown_WqyM44",
     "1653391228084c834a",
     "16603001534a9c90c9",
     "section_featured_collection_kYN8TM",
