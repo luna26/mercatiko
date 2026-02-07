@@ -79,7 +79,7 @@
             "text": "<h4>Nuevo</h4><h1>Moda</h1>",
             "show_link": true,
             "link_text": "Comprar",
-            "link_url": "/",
+            "link_url": "shopify://collections/carteras",
             "button_style": "secondary plain",
             "show_overlay_link": true,
             "overlay_url": "",
