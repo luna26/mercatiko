@@ -55,6 +55,7 @@
         "c9a8027f-3a8d-4084-adbf-29db94608977",
         "4300adc0-a530-4961-bb5a-0ef06c6e64fb"
       ],
+      "disabled": true,
       "custom_css": [
         "shopify-section-footer > div {max-width: none;}"
       ],

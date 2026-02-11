@@ -73,6 +73,7 @@
         "655f761a-afea-4320-92ad-c4df9417265c",
         "7db5eae6-23ed-4bae-85f9-3b91f023c974"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 1024px) {#header-inner .link-btn {display: none; }}"
       ],
