@@ -201,13 +201,11 @@
       "type": "section-featured-products",
       "settings": {
         "products": [
-          "abrigo-invierno-mujer",
-          "abrigo-peluche-mujer",
           "body-laura",
-          "crossbody-tommy-hilfiger-azul",
-          "crossbody-tommy-hilfiger-blanco",
-          "set-eclipse",
-          "212-vip-mujer"
+          "212-vip-mujer",
+          "initiator-gcel",
+          "sandalia-emma",
+          "f1-red-bull"
         ],
         "layout": "slider",
         "number_of_items": 5,
