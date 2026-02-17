@@ -262,6 +262,7 @@
     },
     "section_featured_collection_3QDKfG": {
       "type": "section-featured-collection",
+      "disabled": true,
       "name": "t:sections.featured_collection.presets.name",
       "settings": {
         "collection": "carteras",
